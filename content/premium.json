@@ -1,0 +1,642 @@
+[
+  {
+    "id": "p1",
+    "title": "Fibonacci",
+    "text": "1,1,2,3,5,8,... ¿siguiente?",
+    "hint": "Suma de los dos anteriores",
+    "answer": "13",
+    "difficulty": 2
+  },
+  {
+    "id": "p2",
+    "title": "Reloj",
+    "text": "Si un reloj se adelanta 4 min/hora, ¿cuánto en 9 horas?",
+    "hint": "4×9",
+    "answer": "36",
+    "difficulty": 2
+  },
+  {
+    "id": "p3",
+    "title": "MCD",
+    "text": "¿MCD de 24 y 36?",
+    "hint": "Divisores comunes",
+    "answer": "12",
+    "difficulty": 3
+  },
+  {
+    "id": "p4",
+    "title": "Primo",
+    "text": "¿Es 29 un número primo? (sí/no)",
+    "hint": "Sólo 1 y él mismo",
+    "answer": "sí",
+    "difficulty": 2
+  },
+  {
+    "id": "p5",
+    "title": "Área cuadrado",
+    "text": "Lado=12. Área=?",
+    "hint": "L×L",
+    "answer": "144",
+    "difficulty": 1
+  },
+  {
+    "id": "f206",
+    "title": "Secuencia",
+    "text": "1, 7, 13, 19, 25, ... ¿siguiente?",
+    "hint": "+6",
+    "answer": "31",
+    "difficulty": 2
+  },
+  {
+    "id": "p7",
+    "title": "Cálculo mental",
+    "text": "120+15 = ?",
+    "hint": "Observá patrones",
+    "answer": "135",
+    "difficulty": 2
+  },
+  {
+    "id": "p8",
+    "title": "Cálculo mental",
+    "text": "170+30 = ?",
+    "hint": "Observá patrones",
+    "answer": "200",
+    "difficulty": 2
+  },
+  {
+    "id": "p9",
+    "title": "Cálculo mental",
+    "text": "18×5 = ?",
+    "hint": "Observá patrones",
+    "answer": "90",
+    "difficulty": 2
+  },
+  {
+    "id": "p210",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p11",
+    "title": "Cálculo mental",
+    "text": "15×10 = ?",
+    "hint": "Observá patrones",
+    "answer": "150",
+    "difficulty": 2
+  },
+  {
+    "id": "f212",
+    "title": "Secuencia",
+    "text": "5, 7, 9, 11, 13, ... ¿siguiente?",
+    "hint": "+2",
+    "answer": "15",
+    "difficulty": 2
+  },
+  {
+    "id": "p13",
+    "title": "Cálculo mental",
+    "text": "60+50 = ?",
+    "hint": "Observá patrones",
+    "answer": "110",
+    "difficulty": 2
+  },
+  {
+    "id": "p14",
+    "title": "Cálculo mental",
+    "text": "100+20 = ?",
+    "hint": "Observá patrones",
+    "answer": "120",
+    "difficulty": 2
+  },
+  {
+    "id": "p215",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p16",
+    "title": "Cálculo mental",
+    "text": "14×9 = ?",
+    "hint": "Observá patrones",
+    "answer": "126",
+    "difficulty": 2
+  },
+  {
+    "id": "p17",
+    "title": "Cálculo mental",
+    "text": "130+20 = ?",
+    "hint": "Observá patrones",
+    "answer": "150",
+    "difficulty": 2
+  },
+  {
+    "id": "f218",
+    "title": "Secuencia",
+    "text": "3, 5, 7, 9, 11, ... ¿siguiente?",
+    "hint": "+2",
+    "answer": "13",
+    "difficulty": 2
+  },
+  {
+    "id": "p19",
+    "title": "Cálculo mental",
+    "text": "170+35 = ?",
+    "hint": "Observá patrones",
+    "answer": "205",
+    "difficulty": 2
+  },
+  {
+    "id": "p220",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p21",
+    "title": "Cálculo mental",
+    "text": "19×3 = ?",
+    "hint": "Observá patrones",
+    "answer": "57",
+    "difficulty": 2
+  },
+  {
+    "id": "p22",
+    "title": "Cálculo mental",
+    "text": "14×8 = ?",
+    "hint": "Observá patrones",
+    "answer": "112",
+    "difficulty": 2
+  },
+  {
+    "id": "p23",
+    "title": "Cálculo mental",
+    "text": "180+30 = ?",
+    "hint": "Observá patrones",
+    "answer": "210",
+    "difficulty": 2
+  },
+  {
+    "id": "f224",
+    "title": "Secuencia",
+    "text": "7, 11, 15, 19, 23, ... ¿siguiente?",
+    "hint": "+4",
+    "answer": "27",
+    "difficulty": 2
+  },
+  {
+    "id": "p225",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p26",
+    "title": "Cálculo mental",
+    "text": "110+40 = ?",
+    "hint": "Observá patrones",
+    "answer": "150",
+    "difficulty": 2
+  },
+  {
+    "id": "p27",
+    "title": "Cálculo mental",
+    "text": "7×10 = ?",
+    "hint": "Observá patrones",
+    "answer": "70",
+    "difficulty": 2
+  },
+  {
+    "id": "p28",
+    "title": "Cálculo mental",
+    "text": "60+15 = ?",
+    "hint": "Observá patrones",
+    "answer": "75",
+    "difficulty": 2
+  },
+  {
+    "id": "p29",
+    "title": "Cálculo mental",
+    "text": "12×8 = ?",
+    "hint": "Observá patrones",
+    "answer": "96",
+    "difficulty": 2
+  },
+  {
+    "id": "f230",
+    "title": "Secuencia",
+    "text": "3, 5, 7, 9, 11, ... ¿siguiente?",
+    "hint": "+2",
+    "answer": "13",
+    "difficulty": 2
+  },
+  {
+    "id": "p31",
+    "title": "Cálculo mental",
+    "text": "190+30 = ?",
+    "hint": "Observá patrones",
+    "answer": "220",
+    "difficulty": 2
+  },
+  {
+    "id": "p32",
+    "title": "Cálculo mental",
+    "text": "70+60 = ?",
+    "hint": "Observá patrones",
+    "answer": "130",
+    "difficulty": 2
+  },
+  {
+    "id": "p33",
+    "title": "Cálculo mental",
+    "text": "60+55 = ?",
+    "hint": "Observá patrones",
+    "answer": "115",
+    "difficulty": 2
+  },
+  {
+    "id": "p34",
+    "title": "Cálculo mental",
+    "text": "6×8 = ?",
+    "hint": "Observá patrones",
+    "answer": "48",
+    "difficulty": 2
+  },
+  {
+    "id": "p235",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "f236",
+    "title": "Secuencia",
+    "text": "7, 10, 13, 16, 19, ... ¿siguiente?",
+    "hint": "+3",
+    "answer": "22",
+    "difficulty": 2
+  },
+  {
+    "id": "p37",
+    "title": "Cálculo mental",
+    "text": "190+50 = ?",
+    "hint": "Observá patrones",
+    "answer": "240",
+    "difficulty": 2
+  },
+  {
+    "id": "p38",
+    "title": "Cálculo mental",
+    "text": "180+20 = ?",
+    "hint": "Observá patrones",
+    "answer": "200",
+    "difficulty": 2
+  },
+  {
+    "id": "p39",
+    "title": "Cálculo mental",
+    "text": "13×10 = ?",
+    "hint": "Observá patrones",
+    "answer": "130",
+    "difficulty": 2
+  },
+  {
+    "id": "p240",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p41",
+    "title": "Cálculo mental",
+    "text": "13×8 = ?",
+    "hint": "Observá patrones",
+    "answer": "104",
+    "difficulty": 2
+  },
+  {
+    "id": "f242",
+    "title": "Secuencia",
+    "text": "7, 11, 15, 19, 23, ... ¿siguiente?",
+    "hint": "+4",
+    "answer": "27",
+    "difficulty": 2
+  },
+  {
+    "id": "p43",
+    "title": "Cálculo mental",
+    "text": "7×3 = ?",
+    "hint": "Observá patrones",
+    "answer": "21",
+    "difficulty": 2
+  },
+  {
+    "id": "p44",
+    "title": "Cálculo mental",
+    "text": "14×4 = ?",
+    "hint": "Observá patrones",
+    "answer": "56",
+    "difficulty": 2
+  },
+  {
+    "id": "p245",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p46",
+    "title": "Cálculo mental",
+    "text": "90+25 = ?",
+    "hint": "Observá patrones",
+    "answer": "115",
+    "difficulty": 2
+  },
+  {
+    "id": "p47",
+    "title": "Cálculo mental",
+    "text": "17×8 = ?",
+    "hint": "Observá patrones",
+    "answer": "136",
+    "difficulty": 2
+  },
+  {
+    "id": "f248",
+    "title": "Secuencia",
+    "text": "8, 14, 20, 26, 32, ... ¿siguiente?",
+    "hint": "+6",
+    "answer": "38",
+    "difficulty": 2
+  },
+  {
+    "id": "p49",
+    "title": "Cálculo mental",
+    "text": "18×9 = ?",
+    "hint": "Observá patrones",
+    "answer": "162",
+    "difficulty": 2
+  },
+  {
+    "id": "p250",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p51",
+    "title": "Cálculo mental",
+    "text": "13×9 = ?",
+    "hint": "Observá patrones",
+    "answer": "117",
+    "difficulty": 2
+  },
+  {
+    "id": "p52",
+    "title": "Cálculo mental",
+    "text": "60+25 = ?",
+    "hint": "Observá patrones",
+    "answer": "85",
+    "difficulty": 2
+  },
+  {
+    "id": "p53",
+    "title": "Cálculo mental",
+    "text": "18×12 = ?",
+    "hint": "Observá patrones",
+    "answer": "216",
+    "difficulty": 2
+  },
+  {
+    "id": "f254",
+    "title": "Secuencia",
+    "text": "2, 8, 14, 20, 26, ... ¿siguiente?",
+    "hint": "+6",
+    "answer": "32",
+    "difficulty": 2
+  },
+  {
+    "id": "p255",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p56",
+    "title": "Cálculo mental",
+    "text": "15×7 = ?",
+    "hint": "Observá patrones",
+    "answer": "105",
+    "difficulty": 2
+  },
+  {
+    "id": "p57",
+    "title": "Cálculo mental",
+    "text": "16×6 = ?",
+    "hint": "Observá patrones",
+    "answer": "96",
+    "difficulty": 2
+  },
+  {
+    "id": "p58",
+    "title": "Cálculo mental",
+    "text": "110+20 = ?",
+    "hint": "Observá patrones",
+    "answer": "130",
+    "difficulty": 2
+  },
+  {
+    "id": "p59",
+    "title": "Cálculo mental",
+    "text": "15×7 = ?",
+    "hint": "Observá patrones",
+    "answer": "105",
+    "difficulty": 2
+  },
+  {
+    "id": "f260",
+    "title": "Secuencia",
+    "text": "7, 13, 19, 25, 31, ... ¿siguiente?",
+    "hint": "+6",
+    "answer": "37",
+    "difficulty": 2
+  },
+  {
+    "id": "p61",
+    "title": "Cálculo mental",
+    "text": "130+15 = ?",
+    "hint": "Observá patrones",
+    "answer": "145",
+    "difficulty": 2
+  },
+  {
+    "id": "p62",
+    "title": "Cálculo mental",
+    "text": "11×5 = ?",
+    "hint": "Observá patrones",
+    "answer": "55",
+    "difficulty": 2
+  },
+  {
+    "id": "p63",
+    "title": "Cálculo mental",
+    "text": "170+35 = ?",
+    "hint": "Observá patrones",
+    "answer": "205",
+    "difficulty": 2
+  },
+  {
+    "id": "p64",
+    "title": "Cálculo mental",
+    "text": "100+60 = ?",
+    "hint": "Observá patrones",
+    "answer": "160",
+    "difficulty": 2
+  },
+  {
+    "id": "p265",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "f266",
+    "title": "Secuencia",
+    "text": "7, 12, 17, 22, 27, ... ¿siguiente?",
+    "hint": "+5",
+    "answer": "32",
+    "difficulty": 2
+  },
+  {
+    "id": "p67",
+    "title": "Cálculo mental",
+    "text": "160+50 = ?",
+    "hint": "Observá patrones",
+    "answer": "210",
+    "difficulty": 2
+  },
+  {
+    "id": "p68",
+    "title": "Cálculo mental",
+    "text": "13×3 = ?",
+    "hint": "Observá patrones",
+    "answer": "39",
+    "difficulty": 2
+  },
+  {
+    "id": "p69",
+    "title": "Cálculo mental",
+    "text": "10×12 = ?",
+    "hint": "Observá patrones",
+    "answer": "120",
+    "difficulty": 2
+  },
+  {
+    "id": "p270",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p71",
+    "title": "Cálculo mental",
+    "text": "120+35 = ?",
+    "hint": "Observá patrones",
+    "answer": "155",
+    "difficulty": 2
+  },
+  {
+    "id": "f272",
+    "title": "Secuencia",
+    "text": "8, 13, 18, 23, 28, ... ¿siguiente?",
+    "hint": "+5",
+    "answer": "33",
+    "difficulty": 2
+  },
+  {
+    "id": "p73",
+    "title": "Cálculo mental",
+    "text": "120+40 = ?",
+    "hint": "Observá patrones",
+    "answer": "160",
+    "difficulty": 2
+  },
+  {
+    "id": "p74",
+    "title": "Cálculo mental",
+    "text": "110+50 = ?",
+    "hint": "Observá patrones",
+    "answer": "160",
+    "difficulty": 2
+  },
+  {
+    "id": "p275",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "p76",
+    "title": "Cálculo mental",
+    "text": "90+45 = ?",
+    "hint": "Observá patrones",
+    "answer": "135",
+    "difficulty": 2
+  },
+  {
+    "id": "p77",
+    "title": "Cálculo mental",
+    "text": "7×11 = ?",
+    "hint": "Observá patrones",
+    "answer": "77",
+    "difficulty": 2
+  },
+  {
+    "id": "f278",
+    "title": "Secuencia",
+    "text": "8, 14, 20, 26, 32, ... ¿siguiente?",
+    "hint": "+6",
+    "answer": "38",
+    "difficulty": 2
+  },
+  {
+    "id": "p79",
+    "title": "Cálculo mental",
+    "text": "9×12 = ?",
+    "hint": "Observá patrones",
+    "answer": "108",
+    "difficulty": 2
+  },
+  {
+    "id": "p280",
+    "title": "Ángulo triángulo",
+    "text": "Suma de ángulos interiores de un triángulo = ?",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  }
+]

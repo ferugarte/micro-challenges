@@ -1,3 +1,4 @@
+
 import { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -9,6 +10,7 @@ import { initAds } from './src/services/ads';
 import { initPurchases } from './src/services/purchases';
 import { initAnalytics } from './src/services/analytics';
 import { scheduleDailyReminder } from './src/services/notifications';
+import { useGameStore } from './src/store/useGameStore';
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +21,7 @@ export default function App() {
       try { await initPurchases(); } catch {}
       try { await initAnalytics(); } catch {}
       try { await scheduleDailyReminder(); } catch {}
+      try { await useGameStore.getState().bootstrap(); } catch {}
     })();
   }, []);
 
