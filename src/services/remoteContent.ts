@@ -1,5 +1,5 @@
-const FREE_URL = "https://<tu-usuario>.github.io/micro-challenges/content/free.json";
-const PREMIUM_URL = "https://<tu-usuario>.github.io/micro-challenges/content/premium.json";
+const FREE_URL = "https://ferugarte.github.io/micro-challenges/content/free.json";
+const PREMIUM_URL = "https://ferugarte.github.io/micro-challenges/content/premium.json";
 
 export async function fetchChallenges(premium: boolean) {
   const url = premium ? PREMIUM_URL : FREE_URL;
