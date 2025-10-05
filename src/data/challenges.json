@@ -1,0 +1,242 @@
+[
+  {
+    "id": "c1",
+    "title": "Suma rápida",
+    "text": "¿Cuánto es 27 + 18 - 9?",
+    "hint": "Piensa en 27+(18-9)",
+    "answer": "36",
+    "difficulty": 1
+  },
+  {
+    "id": "c2",
+    "title": "Palabra espejo",
+    "text": "¿Qué palabra se lee igual al revés? Pista: 'oso' no es la única.",
+    "hint": "‘reconocer’",
+    "answer": "reconocer",
+    "difficulty": 1
+  },
+  {
+    "id": "c3",
+    "title": "Patrón",
+    "text": "2, 4, 8, 16, ... ¿Siguiente?",
+    "hint": "×2",
+    "answer": "32",
+    "difficulty": 1
+  },
+  {
+    "id": "c4",
+    "title": "Reloj",
+    "text": "Si un reloj se adelanta 5 min cada hora, ¿cuánto se adelanta en 6 horas?",
+    "hint": "5×6",
+    "answer": "30",
+    "difficulty": 2
+  },
+  {
+    "id": "c5",
+    "title": "Anagrama",
+    "text": "Ordena: ‘A R T E’ para formar algo que te gusta ver.",
+    "hint": "Arte",
+    "answer": "arte",
+    "difficulty": 1
+  },
+  {
+    "id": "c6",
+    "title": "Lógica",
+    "text": "Todos los gatos maúllan. Lolo es gato. ¿Lolo maúlla? (sí/no)",
+    "hint": "Silogismo",
+    "answer": "sí",
+    "difficulty": 1
+  },
+  {
+    "id": "c7",
+    "title": "Paréntesis",
+    "text": "(3+5)×(2+2) = ?",
+    "hint": "8×4",
+    "answer": "32",
+    "difficulty": 1
+  },
+  {
+    "id": "c8",
+    "title": "Secuencia",
+    "text": "1,1,2,3,5,8,... ¿siguiente?",
+    "hint": "Fibonacci",
+    "answer": "13",
+    "difficulty": 2
+  },
+  {
+    "id": "c9",
+    "title": "Sombras",
+    "text": "Si 3 sombras pesan 12, ¿cuánto pesan 2 sombras?",
+    "hint": "Proporcional",
+    "answer": "8",
+    "difficulty": 2
+  },
+  {
+    "id": "c10",
+    "title": "Código",
+    "text": "A=1, B=2, C=3. ¿Qué número es CAB?",
+    "hint": "3-1-2",
+    "answer": "312",
+    "difficulty": 3
+  },
+  {
+    "id": "c11",
+    "title": "Triángulo",
+    "text": "Suma de ángulos interiores de un triángulo es…",
+    "hint": "Geom básica",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "c12",
+    "title": "Hora espejo",
+    "text": "Si ahora son las 14:30, ¿qué hora marca un reloj en espejo?",
+    "hint": "24:00 - hora",
+    "answer": "9:30",
+    "difficulty": 2
+  },
+  {
+    "id": "c13",
+    "title": "Par o impar",
+    "text": "¿El número 0 es par o impar?",
+    "hint": "Divisible por 2",
+    "answer": "par",
+    "difficulty": 1
+  },
+  {
+    "id": "c14",
+    "title": "Frutas",
+    "text": "Tengo 12 manzanas y regalo 5. ¿Cuántas quedan?",
+    "hint": "12-5",
+    "answer": "7",
+    "difficulty": 1
+  },
+  {
+    "id": "c15",
+    "title": "Ruta",
+    "text": "A va a 60 km/h por 2 h. ¿Cuántos km recorre?",
+    "hint": "v×t",
+    "answer": "120",
+    "difficulty": 1
+  },
+  {
+    "id": "c16",
+    "title": "Secuencia II",
+    "text": "3, 6, 9, 12, ... ¿siguiente?",
+    "hint": "+3",
+    "answer": "15",
+    "difficulty": 1
+  },
+  {
+    "id": "c17",
+    "title": "Mitad",
+    "text": "La mitad de 1/2 es…",
+    "hint": "(1/2)/2",
+    "answer": "1/4",
+    "difficulty": 2
+  },
+  {
+    "id": "c18",
+    "title": "Palabra oculta",
+    "text": "Con las letras ‘L A P Z A’ forma un objeto de clase.",
+    "hint": "Se usa para escribir",
+    "answer": "lapiz",
+    "difficulty": 1
+  },
+  {
+    "id": "c19",
+    "title": "Comparación",
+    "text": "¿Qué es mayor, 0.5 o 1/3?",
+    "hint": "0.333…",
+    "answer": "0.5",
+    "difficulty": 2
+  },
+  {
+    "id": "c20",
+    "title": "Multiplicación",
+    "text": "7×8 = ?",
+    "hint": "56",
+    "answer": "56",
+    "difficulty": 1
+  },
+  {
+    "id": "c21",
+    "title": "División mental",
+    "text": "81 ÷ 9 = ?",
+    "hint": "nueve por…",
+    "answer": "9",
+    "difficulty": 1
+  },
+  {
+    "id": "c22",
+    "title": "Enigma",
+    "text": "Soy par, mayor que 20 y menor que 24. ¿Quién soy?",
+    "hint": "22",
+    "answer": "22",
+    "difficulty": 1
+  },
+  {
+    "id": "c23",
+    "title": "Año bisiesto",
+    "text": "¿Cuántos días tiene febrero en un año bisiesto?",
+    "hint": "+1",
+    "answer": "29",
+    "difficulty": 1
+  },
+  {
+    "id": "c24",
+    "title": "Velocidad",
+    "text": "120 km en 2 h. ¿Velocidad media?",
+    "hint": "d/t",
+    "answer": "60",
+    "difficulty": 1
+  },
+  {
+    "id": "c25",
+    "title": "Letra faltante",
+    "text": "A, C, E, G, … ¿siguiente?",
+    "hint": "+2 letras",
+    "answer": "I",
+    "difficulty": 2
+  },
+  {
+    "id": "c26",
+    "title": "Suma rápida II",
+    "text": "99 + 101 = ?",
+    "hint": "200",
+    "answer": "200",
+    "difficulty": 1
+  },
+  {
+    "id": "c27",
+    "title": "Área cuadrado",
+    "text": "Lado=5. Área= ?",
+    "hint": "L×L",
+    "answer": "25",
+    "difficulty": 1
+  },
+  {
+    "id": "c28",
+    "title": "Rompecabezas",
+    "text": "¿Qué número falta? 4, 9, 16, 25, …",
+    "hint": "Cuadrados",
+    "answer": "36",
+    "difficulty": 2
+  },
+  {
+    "id": "c29",
+    "title": "Horas",
+    "text": "¿Cuántos minutos hay en 3 horas?",
+    "hint": "3×60",
+    "answer": "180",
+    "difficulty": 1
+  },
+  {
+    "id": "c30",
+    "title": "Sí/No",
+    "text": "¿El cero es neutro (ni positivo ni negativo)? (sí/no)",
+    "hint": "Número neutro",
+    "answer": "sí",
+    "difficulty": 1
+  }
+]
