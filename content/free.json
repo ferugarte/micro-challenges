@@ -1,402 +1,250 @@
 [
   {
-    "id": "f1",
-    "title": "Cuenta rápida",
-    "text": "12+21 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "33",
-    "difficulty": 1
+    "id": "mc001",
+    "title": "Suma mental",
+    "category": "math",
+    "text": "¿Cuánto es 27 + 35?",
+    "hint": "20+30 y luego unidades",
+    "options": [
+      "52",
+      "60",
+      "62",
+      "63"
+    ],
+    "correct": 2
   },
   {
-    "id": "f2",
-    "title": "Cuenta rápida",
-    "text": "22+7 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "29",
-    "difficulty": 1
+    "id": "mc002",
+    "title": "Doble o nada",
+    "category": "logic",
+    "text": "Completa la secuencia: 2, 4, 8, 16, ¿?",
+    "hint": "Duplica",
+    "options": [
+      "20",
+      "24",
+      "30",
+      "32"
+    ],
+    "correct": 3
   },
   {
-    "id": "f3",
-    "title": "Cuenta rápida",
-    "text": "41+18 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "59",
-    "difficulty": 1
+    "id": "mc003",
+    "title": "Anagrama",
+    "category": "language",
+    "text": "Reordena: R A S E C A",
+    "hint": "Camino peatonal",
+    "options": [
+      "CASERA",
+      "ACERAS",
+      "ESCARA",
+      "ACERAR"
+    ],
+    "correct": 1
   },
   {
-    "id": "f4",
-    "title": "Cuenta rápida",
-    "text": "13+31 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "44",
-    "difficulty": 1
+    "id": "mc004",
+    "title": "Capicúa",
+    "category": "math",
+    "text": "¿Es capicúa el número 1331?",
+    "hint": "Se lee igual al derecho y al revés",
+    "options": [
+      "sí",
+      "no"
+    ],
+    "correct": 0
   },
   {
-    "id": "f5",
-    "title": "Secuencia",
-    "text": "7, 12, 17, 22, 27, ... ¿siguiente?",
-    "hint": "+5",
-    "answer": "32",
-    "difficulty": 2
+    "id": "mc005",
+    "title": "Adivinanza",
+    "category": "logic",
+    "text": "Tengo agujeros pero puedo contener agua. ¿Qué soy?",
+    "hint": "Se usa en la cocina",
+    "options": [
+      "colador",
+      "esponja",
+      "red",
+      "jarra"
+    ],
+    "correct": 1
   },
   {
-    "id": "f6",
-    "title": "Cuenta rápida",
-    "text": "32-31 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "1",
-    "difficulty": 1
+    "id": "mc006",
+    "title": "Memoria",
+    "category": "memory",
+    "text": "Recordá: SOL – ROJO – 3. ¿Cuál era el número?",
+    "hint": "Último ítem",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2
   },
   {
-    "id": "f7",
-    "title": "Palabra espejo",
-    "text": "Decí una palabra que se lea igual al revés",
-    "hint": "palíndromo",
-    "answer": "radar",
-    "difficulty": 1
+    "id": "mc007",
+    "title": "Unidades",
+    "category": "math",
+    "text": "Convierte 2,5 metros a centímetros",
+    "hint": "1 m = 100 cm",
+    "options": [
+      "25",
+      "250",
+      "2500",
+      "0,25"
+    ],
+    "correct": 1
   },
   {
-    "id": "f8",
-    "title": "Cuenta rápida",
-    "text": "75-43 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "32",
-    "difficulty": 1
+    "id": "mc008",
+    "title": "Días",
+    "category": "logic",
+    "text": "Lunes, martes, miércoles, __ , viernes…",
+    "hint": "Cuarto día",
+    "options": [
+      "jueves",
+      "sábado",
+      "domingo",
+      "lunes"
+    ],
+    "correct": 0
   },
   {
-    "id": "f9",
-    "title": "Cuenta rápida",
-    "text": "57+28 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "85",
-    "difficulty": 1
+    "id": "mc009",
+    "title": "Vocal",
+    "category": "language",
+    "text": "Completa: M_R – ¿Qué letra falta?",
+    "hint": "Piensa en MAR",
+    "options": [
+      "a",
+      "e",
+      "i",
+      "o"
+    ],
+    "correct": 0
   },
   {
-    "id": "f10",
-    "title": "Secuencia",
-    "text": "8, 14, 20, 26, 32, ... ¿siguiente?",
-    "hint": "+6",
-    "answer": "38",
-    "difficulty": 2
+    "id": "mc010",
+    "title": "Ordena",
+    "category": "math",
+    "text": "Ordena de menor a mayor: 12, 5, 19, 7",
+    "hint": "Compara",
+    "options": [
+      "12,5,7,19",
+      "5,7,12,19",
+      "7,5,12,19",
+      "5,12,7,19"
+    ],
+    "correct": 1
   },
   {
-    "id": "f11",
-    "title": "Cuenta rápida",
-    "text": "14-50 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "-36",
-    "difficulty": 1
+    "id": "mc011",
+    "title": "Fibonacci",
+    "category": "logic",
+    "text": "1, 1, 2, 3, 5, ¿?",
+    "hint": "Suma los dos anteriores",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 1
   },
   {
-    "id": "f12",
-    "title": "Cuenta rápida",
-    "text": "67+38 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "105",
-    "difficulty": 1
+    "id": "mc012",
+    "title": "Sílabas",
+    "category": "language",
+    "text": "Separa CAMINO: CA – MI – __",
+    "hint": "Tercera sílaba",
+    "options": [
+      "NA",
+      "NO",
+      "NÓ",
+      "MÍ"
+    ],
+    "correct": 1
   },
   {
-    "id": "f13",
-    "title": "Cuenta rápida",
-    "text": "16+45 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "61",
-    "difficulty": 1
+    "id": "mc013",
+    "title": "Resta",
+    "category": "math",
+    "text": "1000 − 275",
+    "hint": "1000 - 300 + 25",
+    "options": [
+      "715",
+      "720",
+      "725",
+      "735"
+    ],
+    "correct": 2
   },
   {
-    "id": "f14",
-    "title": "Palabra espejo",
-    "text": "Decí una palabra que se lea igual al revés",
-    "hint": "fruta",
-    "answer": "anana",
-    "difficulty": 1
+    "id": "mc014",
+    "title": "Sombra",
+    "category": "logic",
+    "text": "Al atardecer, el sol está al oeste. ¿Hacia dónde cae la sombra?",
+    "hint": "Opuesto al sol",
+    "options": [
+      "norte",
+      "sur",
+      "este",
+      "oeste"
+    ],
+    "correct": 2
   },
   {
-    "id": "f15",
-    "title": "Secuencia",
-    "text": "8, 11, 14, 17, 20, ... ¿siguiente?",
-    "hint": "+3",
-    "answer": "23",
-    "difficulty": 2
+    "id": "mc015",
+    "title": "Antónimo",
+    "category": "language",
+    "text": "Antónimo de ‘rápido’",
+    "hint": "Empieza con l",
+    "options": [
+      "ligero",
+      "liviano",
+      "lento",
+      "largo"
+    ],
+    "correct": 2
   },
   {
-    "id": "f16",
-    "title": "Cuenta rápida",
-    "text": "52+50 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "102",
-    "difficulty": 1
+    "id": "c001",
+    "title": "Suma rápida",
+    "category": "math",
+    "text": "¿Cuánto es 27 + 35?",
+    "hint": "20+30 y luego unidades",
+    "solution": "62"
   },
   {
-    "id": "f17",
-    "title": "Cuenta rápida",
-    "text": "89-39 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "50",
-    "difficulty": 1
+    "id": "c002",
+    "title": "Secuencia doble",
+    "category": "logic",
+    "text": "Completa: 3, 6, 12, 24, ¿?",
+    "hint": "Duplica",
+    "solution": "48"
   },
   {
-    "id": "f18",
-    "title": "Cuenta rápida",
-    "text": "63-6 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "57",
-    "difficulty": 1
+    "id": "c003",
+    "title": "Anagrama",
+    "category": "language",
+    "text": "Reordena: R O M A",
+    "hint": "Capital europea",
+    "solution": "ROMA"
   },
   {
-    "id": "f19",
-    "title": "Cuenta rápida",
-    "text": "31-49 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "-18",
-    "difficulty": 1
+    "id": "c004",
+    "title": "Capicúa",
+    "category": "math",
+    "text": "¿Es capicúa 1441? (sí/no)",
+    "hint": "Lee al revés",
+    "solution": "sí"
   },
   {
-    "id": "f20",
-    "title": "Secuencia",
-    "text": "6, 10, 14, 18, 22, ... ¿siguiente?",
-    "hint": "+4",
-    "answer": "26",
-    "difficulty": 2
-  },
-  {
-    "id": "f21",
-    "title": "Palabra espejo",
-    "text": "Decí una palabra que se lea igual al revés",
-    "hint": "fruta",
-    "answer": "anana",
-    "difficulty": 1
-  },
-  {
-    "id": "f22",
-    "title": "Cuenta rápida",
-    "text": "79-45 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "34",
-    "difficulty": 1
-  },
-  {
-    "id": "f23",
-    "title": "Cuenta rápida",
-    "text": "89+43 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "132",
-    "difficulty": 1
-  },
-  {
-    "id": "f24",
-    "title": "Cuenta rápida",
-    "text": "6+5 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "11",
-    "difficulty": 1
-  },
-  {
-    "id": "f25",
-    "title": "Secuencia",
-    "text": "10, 13, 16, 19, 22, ... ¿siguiente?",
-    "hint": "+3",
-    "answer": "25",
-    "difficulty": 2
-  },
-  {
-    "id": "f26",
-    "title": "Cuenta rápida",
-    "text": "19-50 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "-31",
-    "difficulty": 1
-  },
-  {
-    "id": "f27",
-    "title": "Cuenta rápida",
-    "text": "66-41 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "25",
-    "difficulty": 1
-  },
-  {
-    "id": "f28",
-    "title": "Palabra espejo",
-    "text": "Decí una palabra que se lea igual al revés",
-    "hint": "palíndromo",
-    "answer": "radar",
-    "difficulty": 1
-  },
-  {
-    "id": "f29",
-    "title": "Cuenta rápida",
-    "text": "70+40 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "110",
-    "difficulty": 1
-  },
-  {
-    "id": "f30",
-    "title": "Secuencia",
-    "text": "5, 11, 17, 23, 29, ... ¿siguiente?",
-    "hint": "+6",
-    "answer": "35",
-    "difficulty": 2
-  },
-  {
-    "id": "f31",
-    "title": "Cuenta rápida",
-    "text": "28-35 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "-7",
-    "difficulty": 1
-  },
-  {
-    "id": "f32",
-    "title": "Cuenta rápida",
-    "text": "74+16 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "90",
-    "difficulty": 1
-  },
-  {
-    "id": "f33",
-    "title": "Cuenta rápida",
-    "text": "78-44 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "34",
-    "difficulty": 1
-  },
-  {
-    "id": "f34",
-    "title": "Cuenta rápida",
-    "text": "25-6 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "19",
-    "difficulty": 1
-  },
-  {
-    "id": "f35",
-    "title": "Secuencia",
-    "text": "3, 7, 11, 15, 19, ... ¿siguiente?",
-    "hint": "+4",
-    "answer": "23",
-    "difficulty": 2
-  },
-  {
-    "id": "f36",
-    "title": "Cuenta rápida",
-    "text": "50+27 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "77",
-    "difficulty": 1
-  },
-  {
-    "id": "f37",
-    "title": "Cuenta rápida",
-    "text": "45-24 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "21",
-    "difficulty": 1
-  },
-  {
-    "id": "f38",
-    "title": "Cuenta rápida",
-    "text": "51+45 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "96",
-    "difficulty": 1
-  },
-  {
-    "id": "f39",
-    "title": "Cuenta rápida",
-    "text": "90+39 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "129",
-    "difficulty": 1
-  },
-  {
-    "id": "f40",
-    "title": "Secuencia",
-    "text": "1, 3, 5, 7, 9, ... ¿siguiente?",
-    "hint": "+2",
-    "answer": "11",
-    "difficulty": 2
-  },
-  {
-    "id": "f41",
-    "title": "Cuenta rápida",
-    "text": "94+7 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "101",
-    "difficulty": 1
-  },
-  {
-    "id": "f42",
-    "title": "Palabra espejo",
-    "text": "Decí una palabra que se lea igual al revés",
-    "hint": "fruta",
-    "answer": "anana",
-    "difficulty": 1
-  },
-  {
-    "id": "f43",
-    "title": "Cuenta rápida",
-    "text": "96-7 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "89",
-    "difficulty": 1
-  },
-  {
-    "id": "f44",
-    "title": "Cuenta rápida",
-    "text": "58+38 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "96",
-    "difficulty": 1
-  },
-  {
-    "id": "f45",
-    "title": "Secuencia",
-    "text": "2, 4, 6, 8, 10, ... ¿siguiente?",
-    "hint": "+2",
-    "answer": "12",
-    "difficulty": 2
-  },
-  {
-    "id": "f46",
-    "title": "Cuenta rápida",
-    "text": "18+26 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "44",
-    "difficulty": 1
-  },
-  {
-    "id": "f47",
-    "title": "Cuenta rápida",
-    "text": "55-25 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "30",
-    "difficulty": 1
-  },
-  {
-    "id": "f48",
-    "title": "Cuenta rápida",
-    "text": "59+47 = ?",
-    "hint": "Calculá mentalmente",
-    "answer": "106",
-    "difficulty": 1
-  },
-  {
-    "id": "f49",
-    "title": "Palabra espejo",
-    "text": "Decí una palabra que se lea igual al revés",
-    "hint": "palíndromo",
-    "answer": "radar",
-    "difficulty": 1
-  },
-  {
-    "id": "f50",
-    "title": "Secuencia",
-    "text": "5, 8, 11, 14, 17, ... ¿siguiente?",
-    "hint": "+3",
-    "answer": "20",
-    "difficulty": 2
+    "id": "c005",
+    "title": "Adivinanza",
+    "category": "logic",
+    "text": "Cae de día y de noche, pero no se rompe. ¿Qué es?",
+    "hint": "Fenómeno",
+    "solution": "lluvia"
   }
 ]

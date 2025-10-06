@@ -1,0 +1,330 @@
+[
+  {
+    "id": "mc001",
+    "title": "Suma mental",
+    "category": "math",
+    "text": "¿Cuánto es 27 + 35?",
+    "hint": "20+30 y luego unidades",
+    "options": [
+      "52",
+      "60",
+      "62",
+      "63"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "mc002",
+    "title": "Doble o nada",
+    "category": "logic",
+    "text": "Completa la secuencia: 2, 4, 8, 16, ¿?",
+    "hint": "Duplica",
+    "options": [
+      "20",
+      "24",
+      "30",
+      "32"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "mc003",
+    "title": "Anagrama",
+    "category": "language",
+    "text": "Reordena: R A S E C A",
+    "hint": "Camino peatonal",
+    "options": [
+      "CASERA",
+      "ACERAS",
+      "ESCARA",
+      "ACERAR"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "mc004",
+    "title": "Capicúa",
+    "category": "math",
+    "text": "¿Es capicúa el número 1331?",
+    "hint": "Se lee igual al derecho y al revés",
+    "options": [
+      "sí",
+      "no"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "mc005",
+    "title": "Adivinanza",
+    "category": "logic",
+    "text": "Tengo agujeros pero puedo contener agua. ¿Qué soy?",
+    "hint": "Se usa en la cocina",
+    "options": [
+      "colador",
+      "esponja",
+      "red",
+      "jarra"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "mc006",
+    "title": "Memoria",
+    "category": "memory",
+    "text": "Recordá: SOL – ROJO – 3. ¿Cuál era el número?",
+    "hint": "Último ítem",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "mc007",
+    "title": "Unidades",
+    "category": "math",
+    "text": "Convierte 2,5 metros a centímetros",
+    "hint": "1 m = 100 cm",
+    "options": [
+      "25",
+      "250",
+      "2500",
+      "0,25"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "mc008",
+    "title": "Días",
+    "category": "logic",
+    "text": "Lunes, martes, miércoles, __ , viernes…",
+    "hint": "Cuarto día",
+    "options": [
+      "jueves",
+      "sábado",
+      "domingo",
+      "lunes"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "mc009",
+    "title": "Vocal",
+    "category": "language",
+    "text": "Completa: M_R – ¿Qué letra falta?",
+    "hint": "Piensa en MAR",
+    "options": [
+      "a",
+      "e",
+      "i",
+      "o"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "mc010",
+    "title": "Ordena",
+    "category": "math",
+    "text": "Ordena de menor a mayor: 12, 5, 19, 7",
+    "hint": "Compara",
+    "options": [
+      "12,5,7,19",
+      "5,7,12,19",
+      "7,5,12,19",
+      "5,12,7,19"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "mc011",
+    "title": "Fibonacci",
+    "category": "logic",
+    "text": "1, 1, 2, 3, 5, ¿?",
+    "hint": "Suma los dos anteriores",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "mc012",
+    "title": "Sílabas",
+    "category": "language",
+    "text": "Separa CAMINO: CA – MI – __",
+    "hint": "Tercera sílaba",
+    "options": [
+      "NA",
+      "NO",
+      "NÓ",
+      "MÍ"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "mc013",
+    "title": "Resta",
+    "category": "math",
+    "text": "1000 − 275",
+    "hint": "1000 - 300 + 25",
+    "options": [
+      "715",
+      "720",
+      "725",
+      "735"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "mc014",
+    "title": "Sombra",
+    "category": "logic",
+    "text": "Al atardecer, el sol está al oeste. ¿Hacia dónde cae la sombra?",
+    "hint": "Opuesto al sol",
+    "options": [
+      "norte",
+      "sur",
+      "este",
+      "oeste"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "mc015",
+    "title": "Antónimo",
+    "category": "language",
+    "text": "Antónimo de ‘rápido’",
+    "hint": "Empieza con l",
+    "options": [
+      "ligero",
+      "liviano",
+      "lento",
+      "largo"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "c001",
+    "title": "Suma rápida",
+    "category": "math",
+    "text": "¿Cuánto es 27 + 35?",
+    "hint": "20+30 y luego unidades",
+    "solution": "62"
+  },
+  {
+    "id": "c002",
+    "title": "Secuencia doble",
+    "category": "logic",
+    "text": "Completa: 3, 6, 12, 24, ¿?",
+    "hint": "Duplica",
+    "solution": "48"
+  },
+  {
+    "id": "c003",
+    "title": "Anagrama",
+    "category": "language",
+    "text": "Reordena: R O M A",
+    "hint": "Capital europea",
+    "solution": "ROMA"
+  },
+  {
+    "id": "c004",
+    "title": "Capicúa",
+    "category": "math",
+    "text": "¿Es capicúa 1441? (sí/no)",
+    "hint": "Lee al revés",
+    "solution": "sí"
+  },
+  {
+    "id": "c005",
+    "title": "Adivinanza",
+    "category": "logic",
+    "text": "Cae de día y de noche, pero no se rompe. ¿Qué es?",
+    "hint": "Fenómeno",
+    "solution": "lluvia"
+  },
+  {
+    "id": "c006",
+    "title": "Memoria",
+    "category": "memory",
+    "text": "Recordá: LUNA – AZUL – 9. ¿Cuál era el color?",
+    "hint": "Segundo ítem",
+    "solution": "azul"
+  },
+  {
+    "id": "c007",
+    "title": "Unidades",
+    "category": "math",
+    "text": "¿Cuántos mililitros hay en 3 litros?",
+    "hint": "1 l = 1000 ml",
+    "solution": "3000"
+  },
+  {
+    "id": "c008",
+    "title": "Calendario",
+    "category": "logic",
+    "text": "¿Cuántos días tiene febrero en un año bisiesto?",
+    "hint": "Bisiesto",
+    "solution": "29"
+  },
+  {
+    "id": "c009",
+    "title": "Vocal",
+    "category": "language",
+    "text": "Completa: P_ÑA (fruta)",
+    "hint": "Tiene acento",
+    "solution": "piña"
+  },
+  {
+    "id": "c010",
+    "title": "Orden",
+    "category": "math",
+    "text": "Ordena de menor a mayor: 4, 1, 9, 2",
+    "hint": "Compara",
+    "solution": "1,2,4,9"
+  },
+  {
+    "id": "c011",
+    "title": "Fibonacci",
+    "category": "logic",
+    "text": "0, 1, 1, 2, 3, 5, ¿?",
+    "hint": "Suma anteriores",
+    "solution": "8"
+  },
+  {
+    "id": "c012",
+    "title": "Sílabas",
+    "category": "language",
+    "text": "Separa en sílabas: MALETA (MA – LE – __)",
+    "hint": "Última sílaba",
+    "solution": "TA"
+  },
+  {
+    "id": "c013",
+    "title": "Resta",
+    "category": "math",
+    "text": "700 − 255",
+    "hint": "700 - 300 + 45",
+    "solution": "445"
+  },
+  {
+    "id": "c014",
+    "title": "Sombras",
+    "category": "logic",
+    "text": "Al amanecer el sol está al este. ¿Hacia dónde cae la sombra?",
+    "hint": "Opuesto al sol",
+    "solution": "oeste"
+  },
+  {
+    "id": "c015",
+    "title": "Antónimo",
+    "category": "language",
+    "text": "Antónimo de ‘alto’",
+    "hint": "Empieza con b",
+    "solution": "bajo"
+  }
+]

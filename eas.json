@@ -1,24 +1,11 @@
 {
-  "cli": {
-    "version": ">= 11.0.0"
-  },
+  "cli": { "version": ">= 11.0.0" },
   "build": {
-    "android": {
-      "production": {
-        "workflow": "managed"
-      }
-    },
-    "ios": {
-      "production": {
-        "workflow": "managed"
-      }
-    }
+    "development": { "developmentClient": true, "distribution": "internal" },
+    "preview":     { "distribution": "internal" },
+    "production":  { "workflow": "managed" }
   },
   "submit": {
-    "android": {
-      "production": {
-        "track": "internal"
-      }
-    }
+    "android": { "production": { "track": "internal" } }
   }
 }
