@@ -1,0 +1,44 @@
+{
+  "interests": [
+    "math","language","science","nature","animals","music","art","sports",
+    "history","tech","health","social","geo","culture","finance",
+    "digital_safety","emotions","executive_functions","creativity",
+    "reading","logic","videogames",
+    "attention","memory","reasoning"
+  ],
+  "interestAlias": {
+    "matemáticas":"math",
+    "lenguaje":"language",
+    "ciencia":"science",
+    "naturaleza":"nature",
+    "animales":"animals",
+    "música":"music",
+    "arte":"art",
+    "deportes":"sports",
+    "historia":"history",
+    "tecnología":"tech",
+    "salud":"health",
+    "habilidades sociales":"social",
+    "geografía":"geo",
+    "cultura":"culture",
+    "finanzas":"finance",
+    "seguridad digital":"digital_safety",
+    "emociones":"emotions",
+    "funciones ejecutivas":"executive_functions",
+    "creatividad":"creativity",
+    "lectura":"reading",
+    "videojuegos":"videogames",
+
+    "math_basic":"math",
+    "fun_science":"science",
+    "geo":"geo",
+    "digital_safety":"digital_safety",
+
+    "atención":"attention",
+    "memoria":"memory",
+    "advanced_logic":"logic",
+    "reading_critical":"reading",
+    "digital_culture":"culture",
+    "razonamiento": "reasoning"
+  }
+}

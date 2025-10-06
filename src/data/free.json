@@ -1,0 +1,656 @@
+[
+  {
+    "id": "math_f001",
+    "title": "Suma básica",
+    "interest": "math",
+    "text": "¿Cuánto es 8 + 5?",
+    "hint": "Piensa en 8 + 2 + 3",
+    "options": [
+      "11",
+      "13",
+      "15",
+      "14"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "math_f002",
+    "title": "Resta sencilla",
+    "interest": "math",
+    "text": "¿Cuánto es 15 - 7?",
+    "hint": "Cuenta hacia atrás desde 15",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "language_f001",
+    "title": "Sinónimo",
+    "interest": "language",
+    "text": "¿Cuál es un sinónimo de 'feliz'?",
+    "hint": "Piensa en una palabra que significa alegría",
+    "options": [
+      "Triste",
+      "Contento",
+      "Enojado",
+      "Cansado"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reading"
+  },
+  {
+    "id": "language_f002",
+    "title": "Antónimo",
+    "interest": "language",
+    "text": "¿Cuál es el antónimo de 'grande'?",
+    "hint": "Piensa en algo pequeño",
+    "solution": "pequeño",
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reading"
+  },
+  {
+    "id": "science_f001",
+    "title": "Estados de la materia",
+    "interest": "science",
+    "text": "¿Cuál de estos es un estado de la materia?",
+    "hint": "Piensa en sólido, líquido y gas",
+    "options": [
+      "Calor",
+      "Sólido",
+      "Frío",
+      "Color"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "nature_f001",
+    "title": "Árboles",
+    "interest": "nature",
+    "text": "¿Qué producen los árboles que es esencial para respirar?",
+    "hint": "Es un gas",
+    "options": [
+      "Oxígeno",
+      "Dióxido de carbono",
+      "Nitrógeno",
+      "Hidrógeno"
+    ],
+    "correct": 0,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "animals_f001",
+    "title": "Animales domésticos",
+    "interest": "animals",
+    "text": "¿Cuál de estos animales es común tener como mascota?",
+    "hint": "Es un animal que ladra",
+    "options": [
+      "Gato",
+      "Perro",
+      "Tigre",
+      "Elefante"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "music_f001",
+    "title": "Instrumentos",
+    "interest": "music",
+    "text": "¿Cuál de estos es un instrumento musical de cuerda?",
+    "hint": "Se toca con los dedos o un arco",
+    "options": [
+      "Piano",
+      "Guitarra",
+      "Batería",
+      "Flauta"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "art_f001",
+    "title": "Colores primarios",
+    "interest": "art",
+    "text": "¿Cuál de estos es un color primario?",
+    "hint": "Piensa en rojo, azul y amarillo",
+    "options": [
+      "Verde",
+      "Rojo",
+      "Naranja",
+      "Morado"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": 2,
+    "objective_id": "creativity"
+  },
+  {
+    "id": "videogames_f001",
+    "title": "Consolas",
+    "interest": "videogames",
+    "text": "¿Cuál de estos es una consola de videojuegos?",
+    "hint": "Tiene juegos como Mario Bros",
+    "options": [
+      "Nintendo",
+      "Samsung",
+      "Sony",
+      "Apple"
+    ],
+    "correct": 0,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": 2,
+    "objective_id": "attention_focus"
+  },
+  {
+    "id": "sports_f001",
+    "title": "Deportes con pelota",
+    "interest": "sports",
+    "text": "¿En qué deporte se usa una pelota y se anotan goles?",
+    "hint": "Se juega con 11 jugadores por equipo",
+    "options": [
+      "Fútbol",
+      "Natación",
+      "Tenis",
+      "Atletismo"
+    ],
+    "correct": 0,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": 2,
+    "objective_id": "attention_focus"
+  },
+  {
+    "id": "history_f001",
+    "title": "Historia básica",
+    "interest": "history",
+    "text": "¿Quién fue Cristóbal Colón?",
+    "hint": "Explorador famoso",
+    "options": [
+      "Un pintor",
+      "Un explorador",
+      "Un científico",
+      "Un músico"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "tech_f001",
+    "title": "Tecnología básica",
+    "interest": "tech",
+    "text": "¿Qué dispositivo usamos para navegar en internet?",
+    "hint": "Puede ser una computadora o un teléfono",
+    "options": [
+      "Televisor",
+      "Computadora",
+      "Refrigerador",
+      "Radio"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "health_f001",
+    "title": "Hábitos saludables",
+    "interest": "health",
+    "text": "¿Qué es importante para mantener una buena salud?",
+    "hint": "Piensa en alimentación y ejercicio",
+    "options": [
+      "Comer dulces todo el día",
+      "Dormir poco",
+      "Hacer ejercicio regularmente",
+      "No lavarse las manos"
+    ],
+    "correct": 2,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "executive_functions"
+  },
+  {
+    "id": "social_f001",
+    "title": "Habilidades sociales",
+    "interest": "social",
+    "text": "¿Qué debes hacer para ser un buen amigo?",
+    "hint": "Piensa en cómo tratar a los demás",
+    "options": [
+      "Escuchar y respetar",
+      "Ignorar a los demás",
+      "Pelear mucho",
+      "No compartir"
+    ],
+    "correct": 0,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "emotion_regulation"
+  },
+  {
+    "id": "geo_f001",
+    "title": "Geografía básica",
+    "interest": "geo",
+    "text": "¿Cuál es el continente donde está México?",
+    "hint": "Está al norte de Sudamérica",
+    "options": [
+      "Europa",
+      "Asia",
+      "América",
+      "África"
+    ],
+    "correct": 2,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "culture_f001",
+    "title": "Cultura general",
+    "interest": "culture",
+    "text": "¿En qué país se originó el flamenco?",
+    "hint": "Está en Europa y habla español",
+    "options": [
+      "Italia",
+      "España",
+      "Francia",
+      "Portugal"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "math_f003",
+    "title": "Multiplicación simple",
+    "interest": "math",
+    "text": "¿Cuánto es 3 × 4?",
+    "hint": "Piensa en sumar 3 cuatro veces",
+    "solution": "12",
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "language_f003",
+    "title": "Completa la palabra",
+    "interest": "language",
+    "text": "Completa: _OLA (saludo común)",
+    "hint": "Empieza con H",
+    "options": [
+      "Hola",
+      "Pola",
+      "Mola",
+      "Tola"
+    ],
+    "correct": 0,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reading"
+  },
+  {
+    "id": "science_f002",
+    "title": "Partes de la planta",
+    "interest": "science",
+    "text": "¿Qué parte de la planta absorbe agua del suelo?",
+    "hint": "Está bajo tierra",
+    "options": [
+      "Raíz",
+      "Tallo",
+      "Hoja",
+      "Flor"
+    ],
+    "correct": 0,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "nature_f002",
+    "title": "Animales salvajes",
+    "interest": "nature",
+    "text": "¿Cuál de estos animales vive en la selva?",
+    "hint": "Es un felino grande",
+    "options": [
+      "León",
+      "Elefante",
+      "Delfín",
+      "Pingüino"
+    ],
+    "correct": 0,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "animals_f002",
+    "title": "Sonidos de animales",
+    "interest": "animals",
+    "text": "¿Qué animal hace 'miau'?",
+    "hint": "Mascota común que caza ratones",
+    "solution": "gato",
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "attention_f001",
+    "title": "Detecta la palabra",
+    "interest": "attention",
+    "text": "En la lista: sol, luna, sol, nube, sol, ¿cuántas veces aparece 'sol'?",
+    "hint": "Cuenta con el dedo",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "memory_f001",
+    "title": "Memoria corta",
+    "interest": "memory",
+    "text": "Recuerda: gato, tren, árbol. ¿Cuál fue la segunda palabra?",
+    "hint": "Piensa en transporte",
+    "options": [
+      "gato",
+      "tren",
+      "árbol",
+      "auto"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "reasoning_f001",
+    "title": "Patrón sencillo",
+    "interest": "reasoning",
+    "text": "Completa la serie: 2, 4, 6, __",
+    "hint": "Suma de a 2",
+    "solution": "8",
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 120,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "creativity_f001",
+    "title": "Usos creativos",
+    "interest": "creativity",
+    "text": "Escribe un uso creativo para una caja de cartón.",
+    "hint": "Piensa en juegos o inventos",
+    "solution": "casa de muñecas",
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "creativity"
+  },
+  {
+    "id": "finanzas_f001",
+    "title": "Ahorro básico",
+    "interest": "finance",
+    "text": "Tienes 10 monedas. Gastas 3 en una merienda. ¿Cuántas te quedan?",
+    "hint": "Resta 10 - 3",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 120,
+    "difficulty": 2,
+    "objective_id": "executive_functions"
+  },
+  {
+    "id": "lectura_f001",
+    "title": "Comprensión lectora",
+    "interest": "reading",
+    "text": "Texto: \"Ana llevó un paraguas porque iba a llover\". ¿Por qué llevó Ana un paraguas?",
+    "hint": "Busca la causa",
+    "options": [
+      "Por el sol",
+      "Por la nieve",
+      "Porque iba a llover",
+      "Porque hacía viento"
+    ],
+    "correct": 2,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 120,
+    "difficulty": 2,
+    "objective_id": "reading"
+  },
+  {
+    "id": "digital_safety_f001",
+    "title": "Seguridad digital",
+    "interest": "digital_safety",
+    "text": "¿Qué NO debes compartir con desconocidos en internet?",
+    "hint": "Información personal",
+    "options": [
+      "Tu comida favorita",
+      "Tu dirección",
+      "Un dibujo",
+      "El clima"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 120,
+    "difficulty": 2,
+    "objective_id": "executive_functions"
+  },
+  {
+    "id": "emociones_f001",
+    "title": "Identifica la emoción",
+    "interest": "emotions",
+    "text": "Si perdiste tu juguete favorito, ¿cómo te sentirías?",
+    "hint": "Emoción negativa común",
+    "options": [
+      "Contento",
+      "Triste",
+      "Hambriento",
+      "Sorprendido"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "emotion_regulation"
+  },
+  {
+    "id": "executive_f001",
+    "title": "Planificación",
+    "interest": "executive_functions",
+    "text": "Debes estudiar 30 minutos y luego jugar. ¿Qué haces primero?",
+    "hint": "Ordena por prioridad",
+    "options": [
+      "Jugar primero",
+      "Estudiar primero",
+      "No hacer nada",
+      "Dormir"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 120,
+    "difficulty": 2,
+    "objective_id": "executive_functions"
+  },
+  {
+    "id": "math_f004",
+    "title": "Mitad de un número",
+    "interest": "math",
+    "text": "¿Cuál es la mitad de 18?",
+    "hint": "18 ÷ 2",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 2,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "science_f003",
+    "title": "El agua",
+    "interest": "science",
+    "text": "¿A qué temperatura (aprox.) hierve el agua al nivel del mar?",
+    "hint": "Grados Celsius",
+    "options": [
+      "50°",
+      "80°",
+      "100°",
+      "120°"
+    ],
+    "correct": 2,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "geo_f002",
+    "title": "Puntos cardinales",
+    "interest": "geo",
+    "text": "Si miras al norte, ¿qué punto cardinal queda a tu derecha?",
+    "hint": "Piensa en una brújula",
+    "options": [
+      "Oeste",
+      "Este",
+      "Sur",
+      "Noreste"
+    ],
+    "correct": 1,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "culture_f002",
+    "title": "Lenguas del mundo",
+    "interest": "culture",
+    "text": "¿Cuál de estas es una lengua romance?",
+    "hint": "Deriva del latín",
+    "options": [
+      "Alemán",
+      "Ruso",
+      "Portugués",
+      "Japonés"
+    ],
+    "correct": 2,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "memory"
+  },
+  {
+    "id": "sports_f002",
+    "title": "Reglas básicas",
+    "interest": "sports",
+    "text": "En básquet, ¿cuántos puntos vale un tiro libre?",
+    "hint": "No es doble ni triple",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 0,
+    "audience": "user",
+    "ageMin": 8,
+    "ageMax": 12,
+    "difficulty": 2,
+    "objective_id": "attention_focus"
+  }
+]

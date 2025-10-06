@@ -2,12 +2,15 @@ import React from 'react';
 import { SafeAreaView, View, Text, StyleSheet, TextInput, FlatList, TouchableOpacity, Button, Alert } from 'react-native';
 import useGameStore from '../store/useGameStore';
 import interestsData from '../data/interests.json';
+import objectivesData from '../data/objectives.json';
 
 type Interest = { id: string; name: string; emoji?: string };
 
 export default function OnboardingScreen({ navigation }: any) {
   const setProfile = useGameStore(s => s.setProfile);
   const [age, setAge] = React.useState<string>('');
+  const [role, setRole] = React.useState<'child' | 'mentor' | null>(null);
+  const [objectives, setObjectives] = React.useState<string[]>([]);
   const [selected, setSelected] = React.useState<string[]>([]);
 
   const ageRanges = ['4–6', '7–9', '10–12', '13–15', '16–18'];
@@ -17,16 +20,17 @@ export default function OnboardingScreen({ navigation }: any) {
   }
 
   function onContinue() {
-    const nAge = Number(age.split('–')[0]);
-    if (!nAge || nAge < 4 || nAge > 18) {
+    if (!role) { Alert.alert('Elegí un tipo de usuario', 'Jugador o Padre/Tutor'); return; }
+    const nAge = role==='mentor' ? Number(age.split('–')[0] || '10') : Number(age.split('–')[0]);
+    if (role==='child' && (!nAge || nAge < 4 || nAge > 18)) {
       Alert.alert('Edad inválida', 'Ingresa una edad entre 4 y 18');
       return;
     }
-    if (selected.length < 3) {
+    if (role==='child' && selected.length < 3) {
       Alert.alert('Elige intereses', 'Selecciona al menos 3 intereses');
       return;
     }
-    setProfile(nAge, selected);
+    setProfile({ role, age: nAge, interests: selected, objectives });
     navigation.replace('Home');
   }
 
@@ -35,6 +39,18 @@ export default function OnboardingScreen({ navigation }: any) {
       <View style={styles.header}>
         <Text style={styles.title}>¡Bienvenido/a!</Text>
         <Text style={styles.subtitle}>Cuéntanos tu edad e intereses para personalizar los retos.</Text>
+      </View>
+
+      <View style={styles.box}>
+        <Text style={styles.label}>¿Quién usará la app?</Text>
+        <View style={styles.roleRow}>
+          <TouchableOpacity onPress={() => setRole('child')} style={[styles.roleBtn, role==='child' && styles.roleBtnActive]}>
+            <Text style={[styles.roleText, role==='child' && styles.roleTextActive]}>Jugador</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => setRole('mentor')} style={[styles.roleBtn, role==='mentor' && styles.roleBtnActive]}>
+            <Text style={[styles.roleText, role==='mentor' && styles.roleTextActive]}>Padre/Tutor</Text>
+          </TouchableOpacity>
+        </View>
       </View>
 
       <View style={styles.box}>
@@ -62,9 +78,9 @@ export default function OnboardingScreen({ navigation }: any) {
         </View>
       </View>
 
-      <Text style={[styles.label, { marginHorizontal: 16 }]}>Elige al menos 3 intereses:</Text>
+      {role !== 'mentor' && (<Text style={[styles.label, { marginHorizontal: 16 }]}>Elige al menos 3 intereses:</Text>)}
       <FlatList
-        data={interestsData as Interest[]}
+        data={(role==='mentor' ? [] : (interestsData as Interest[]))}
         keyExtractor={(item) => item.id}
         numColumns={2}
         contentContainerStyle={{ padding: 12 }}
@@ -79,6 +95,28 @@ export default function OnboardingScreen({ navigation }: any) {
         }}
       />
 
+
+      {role === 'mentor' && (
+        <>
+          <Text style={[styles.label, { marginHorizontal: 16 }]}>Objetivos educativos (elige 1–3):</Text>
+          <FlatList
+            data={objectivesData as any[]}
+            keyExtractor={(item) => item.id}
+            numColumns={2}
+            contentContainerStyle={{ padding: 12 }}
+            columnWrapperStyle={{ gap: 12 }}
+            renderItem={({ item }) => {
+              const active = objectives.includes(item.id);
+              return (
+                <TouchableOpacity onPress={() => setObjectives(prev => active ? prev.filter(x=>x!==item.id) : [...prev, item.id])} style={[styles.chip, active && styles.chipActive]}>
+                  <Text style={styles.chipText}>{item.emoji ?? '⭐️'} {item.name}</Text>
+                </TouchableOpacity>
+              );
+            }}
+          />
+        </>
+      )}
+    
       <View style={{ padding: 16 }}>
         <Button title='Continuar' onPress={onContinue} />
       </View>
@@ -122,4 +160,9 @@ const styles = StyleSheet.create({
   ageRangeTextSelected: {
     color: '#007aff',
   },
+  roleRow:{flexDirection:'row', gap:12, paddingHorizontal:16},
+  roleBtn:{flex:1, borderWidth:1, borderColor:'#ddd', borderRadius:12, padding:12, backgroundColor:'#fafafa', alignItems:'center'},
+  roleBtnActive:{backgroundColor:'#e6f7ff', borderColor:'#66c2ff'},
+  roleText:{fontSize:15, fontWeight:'700', color:'#333'},
+  roleTextActive:{color:'#007aff'},
 });

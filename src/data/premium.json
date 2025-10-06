@@ -1,0 +1,722 @@
+[
+  {
+    "id": "math_premium_p001",
+    "title": "Razonamiento Matemático",
+    "interest": "math",
+    "text": "Si cinco máquinas tardan cinco minutos en hacer cinco productos, ¿cuánto tardarán 100 máquinas en hacer 100 productos?",
+    "hint": "Piensa en la tasa de producción por máquina",
+    "options": [
+      "5 minutos",
+      "100 minutos",
+      "20 minutos",
+      "50 minutos"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "science_premium_p002",
+    "title": "Ciencia y Naturaleza",
+    "interest": "science",
+    "text": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+    "hint": "No es oxígeno",
+    "options": [
+      "Nitrógeno",
+      "Oxígeno",
+      "Dióxido de carbono",
+      "Argón"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "logic_premium_p003",
+    "title": "Lógica y Razonamiento",
+    "interest": "logic",
+    "text": "Si todas las rosas son flores, y algunas flores se marchitan rápido, ¿qué afirmación es correcta?",
+    "hint": "Relaciona las categorías",
+    "options": [
+      "Todas las rosas se marchitan rápido",
+      "Algunas rosas se marchitan rápido",
+      "Ninguna rosa se marchita rápido",
+      "No se puede saber"
+    ],
+    "correct": 3,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "history_premium_p004",
+    "title": "Historia Universal",
+    "interest": "history",
+    "text": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+    "hint": "Su apellido es corto y empieza con L",
+    "options": [
+      "Stalin",
+      "Lenin",
+      "Trotsky",
+      "Marx"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "memory"
+  },
+  {
+    "id": "language_premium_p005",
+    "title": "Creatividad Lingüística",
+    "interest": "language",
+    "text": "¿Cuál es el antónimo de 'efímero'?",
+    "hint": "Piensa en algo duradero",
+    "options": [
+      "Breve",
+      "Permanente",
+      "Rápido",
+      "Ligero"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reading"
+  },
+  {
+    "id": "art_premium_p006",
+    "title": "Arte y Cultura",
+    "interest": "art",
+    "text": "¿Quién pintó 'La persistencia de la memoria'?",
+    "hint": "Fue un pintor surrealista español",
+    "options": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Diego Velázquez",
+      "Joan Miró"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "creativity"
+  },
+  {
+    "id": "music_premium_p007",
+    "title": "Música y Sonido",
+    "interest": "music",
+    "text": "¿Qué instrumento tiene 88 teclas?",
+    "hint": "Es un instrumento clásico de cuerda y teclado",
+    "options": [
+      "Piano",
+      "Guitarra",
+      "Violín",
+      "Flauta"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "memory"
+  },
+  {
+    "id": "geography_premium_p008",
+    "title": "Geografía Mundial",
+    "interest": "geo",
+    "text": "¿Cuál es el país con mayor cantidad de islas en el mundo?",
+    "hint": "Es un país nórdico",
+    "options": [
+      "Indonesia",
+      "Filipinas",
+      "Suecia",
+      "Canadá"
+    ],
+    "correct": 2,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "memory"
+  },
+  {
+    "id": "technology_premium_p009",
+    "title": "Tecnología e Innovación",
+    "interest": "tech",
+    "text": "¿Qué significa la sigla 'HTTP' en internet?",
+    "hint": "Es un protocolo para la web",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Tech Transmission Process",
+      "Hyperlink Text Transfer Program",
+      "High Transfer Text Protocol"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "animals_premium_p010",
+    "title": "Fauna y Hábitats",
+    "interest": "animals",
+    "text": "¿Cuál es el mamífero más rápido en tierra?",
+    "hint": "Puede alcanzar velocidades superiores a 100 km/h",
+    "options": [
+      "León",
+      "Guepardo",
+      "Antílope",
+      "Tigre"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "memory"
+  },
+  {
+    "id": "sports_premium_p011",
+    "title": "Deportes y Estrategia",
+    "interest": "sports",
+    "text": "¿En qué deporte se utiliza un disco llamado 'puck'?",
+    "hint": "Es popular en países fríos",
+    "options": [
+      "Hockey sobre hielo",
+      "Fútbol americano",
+      "Rugby",
+      "Baloncesto"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "attention_focus"
+  },
+  {
+    "id": "digital_safety_premium_p012",
+    "title": "Seguridad Digital",
+    "interest": "digital_safety",
+    "text": "¿Cuál es una buena práctica para crear contraseñas seguras?",
+    "hint": "Incluye variedad de caracteres",
+    "options": [
+      "Usar solo números",
+      "Usar palabras comunes",
+      "Combinar letras, números y símbolos",
+      "Usar tu nombre"
+    ],
+    "correct": 2,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "executive_functions"
+  },
+  {
+    "id": "logic_premium_p013",
+    "title": "Desafío de Lógica",
+    "interest": "logic",
+    "text": "Si hoy es lunes, ¿qué día será dentro de 100 días?",
+    "hint": "Piensa en el ciclo semanal",
+    "options": [
+      "Miércoles",
+      "Jueves",
+      "Viernes",
+      "Sábado"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "health_premium_p014",
+    "title": "Salud y Bienestar",
+    "interest": "health",
+    "text": "¿Cuál es la vitamina que produce el cuerpo humano al exponerse al sol?",
+    "hint": "Es esencial para la salud ósea",
+    "options": [
+      "Vitamina A",
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B12"
+    ],
+    "correct": 2,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 120,
+    "difficulty": 3,
+    "objective_id": "executive_functions"
+  },
+  {
+    "id": "social_premium_p015",
+    "title": "Habilidades Sociales",
+    "interest": "social",
+    "text": "¿Cuál es una buena forma de resolver un conflicto interpersonal?",
+    "hint": "Piensa en comunicación efectiva",
+    "options": [
+      "Ignorar el problema",
+      "Escuchar y dialogar",
+      "Gritar para imponer tu punto",
+      "Evitar a la persona"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "emotion_regulation"
+  },
+  {
+    "id": "nature_premium_p016",
+    "title": "Naturaleza y Medio Ambiente",
+    "interest": "nature",
+    "text": "¿Qué proceso realizan las plantas para producir oxígeno?",
+    "hint": "Involucra luz solar y dióxido de carbono",
+    "options": [
+      "Fotosíntesis",
+      "Respiración",
+      "Fermentación",
+      "Transpiración"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "memory"
+  },
+  {
+    "id": "videogames_premium_p017",
+    "title": "Videojuegos y Estrategia",
+    "interest": "videogames",
+    "text": "¿Cuál de estos juegos es conocido por su mundo abierto y construcción con bloques?",
+    "hint": "Es muy popular entre niños y adolescentes",
+    "options": [
+      "Minecraft",
+      "Fortnite",
+      "Among Us",
+      "Call of Duty"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "attention_focus"
+  },
+  {
+    "id": "math_premium_p018",
+    "title": "Problema de Álgebra",
+    "interest": "math",
+    "text": "Si 3x - 7 = 11, ¿cuánto vale x?",
+    "hint": "Despeja la variable",
+    "options": [
+      "6",
+      "4",
+      "7",
+      "5"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "culture_premium_p019",
+    "title": "Cultura General",
+    "interest": "culture",
+    "text": "¿En qué país se originó el tango?",
+    "hint": "Es un país sudamericano",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Chile",
+      "Perú"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "memory"
+  },
+  {
+    "id": "language_premium_p020",
+    "title": "Ortografía y Gramática",
+    "interest": "language",
+    "text": "¿Cuál es la forma correcta de escribir la palabra?",
+    "hint": "Piensa en la tilde",
+    "options": [
+      "Café",
+      "Cafe",
+      "Cafè",
+      "Caf"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reading"
+  },
+  {
+    "id": "history_premium_p021",
+    "title": "Historia y Sociedad",
+    "interest": "history",
+    "text": "¿En qué año cayó el Muro de Berlín?",
+    "hint": "Fue a finales de los 80",
+    "options": [
+      "1987",
+      "1989",
+      "1991",
+      "1985"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "memory"
+  },
+  {
+    "id": "technology_premium_p022",
+    "title": "Innovación Tecnológica",
+    "interest": "tech",
+    "text": "¿Qué dispositivo se utiliza para almacenar datos de manera permanente en una computadora?",
+    "hint": "No es la memoria RAM",
+    "options": [
+      "Disco duro",
+      "Procesador",
+      "Tarjeta gráfica",
+      "Placa base"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 120,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "health_premium_p023",
+    "title": "Nutrición y Salud",
+    "interest": "health",
+    "text": "¿Cuál de estos alimentos es una fuente rica en proteínas vegetales?",
+    "hint": "Es una legumbre",
+    "options": [
+      "Lentejas",
+      "Manzanas",
+      "Pan",
+      "Leche"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "executive_functions"
+  },
+  {
+    "id": "art_premium_p024",
+    "title": "Historia del Arte",
+    "interest": "art",
+    "text": "¿A qué movimiento artístico pertenece Vincent van Gogh?",
+    "hint": "Pintura postimpresionista",
+    "options": [
+      "Impresionismo",
+      "Cubismo",
+      "Postimpresionismo",
+      "Surrealismo"
+    ],
+    "correct": 2,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "creativity"
+  },
+  {
+    "id": "logic_premium_p025",
+    "title": "Enigma de Lógica",
+    "interest": "logic",
+    "text": "Un tren eléctrico viaja hacia el norte a 100 km/h y el viento sopla hacia el este a 50 km/h. ¿Hacia dónde va el humo?",
+    "hint": "Piensa en el tipo de tren",
+    "options": [
+      "Hacia el norte",
+      "Hacia el este",
+      "Hacia el oeste",
+      "No hay humo"
+    ],
+    "correct": 3,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 120,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "emotions_premium_p026",
+    "title": "Reconocimiento de Emociones",
+    "interest": "emotions",
+    "text": "Si alguien sonríe mientras frunce el ceño, ¿qué emoción podría estar experimentando?",
+    "hint": "Piensa en emociones mixtas o contradictorias",
+    "options": [
+      "Alegría genuina",
+      "Confusión o duda",
+      "Tristeza profunda",
+      "Enojo intenso"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "emotion_regulation"
+  },
+  {
+    "id": "memory_premium_p027",
+    "title": "Desafío de Memoria Visual",
+    "interest": "memory",
+    "text": "Observa esta secuencia: Rojo, Azul, Verde, Amarillo. ¿Cuál color aparece tercero?",
+    "hint": "Cuenta el orden de los colores",
+    "options": [
+      "Azul",
+      "Verde",
+      "Amarillo",
+      "Rojo"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "attention_premium_p028",
+    "title": "Prueba de Atención",
+    "interest": "attention",
+    "text": "En la siguiente lista, ¿cuántas veces aparece la palabra 'sol'?\nsol, luna, sol, estrella, sol, planeta",
+    "hint": "Cuenta cuidadosamente",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "advanced_logic_premium_p029",
+    "title": "Razonamiento Lógico Avanzado",
+    "interest": "logic",
+    "text": "Si todos los A son B, y algunos B son C, ¿cuál afirmación es necesariamente verdadera?",
+    "hint": "Piensa en la relación entre conjuntos",
+    "options": [
+      "Algunos A son C",
+      "Todos los C son A",
+      "Algunos B no son A",
+      "Ninguna es verdadera"
+    ],
+    "correct": 2,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "creativity_premium_p030",
+    "title": "Creatividad y Solución de Problemas",
+    "interest": "creativity",
+    "text": "Si tienes una caja cerrada y una cuerda atada a ella, ¿cómo podrías abrir la caja sin romper la cuerda ni la caja?",
+    "hint": "Piensa en manipular la cuerda o la caja",
+    "options": [
+      "Cortar la cuerda",
+      "Desatar la cuerda",
+      "Mover la cuerda para abrir la caja",
+      "No se puede abrir"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 120,
+    "difficulty": 3,
+    "objective_id": "creativity"
+  },
+  {
+    "id": "finance_premium_p031",
+    "title": "Finanzas Personales Básicas",
+    "interest": "finance",
+    "text": "Si ganas $1000 y gastas $750, ¿cuánto dinero te queda?",
+    "hint": "Resta el gasto del ingreso",
+    "options": [
+      "$250",
+      "$350",
+      "$150",
+      "$300"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 120,
+    "difficulty": 3,
+    "objective_id": "executive_functions"
+  },
+  {
+    "id": "reading_critical_premium_p032",
+    "title": "Lectura Crítica",
+    "interest": "reading",
+    "text": "Si un artículo dice que \"todos los perros son animales\", ¿qué afirmación es correcta?",
+    "hint": "Piensa en la relación entre perros y animales",
+    "options": [
+      "Todos los animales son perros",
+      "Algunos animales son perros",
+      "Ningún perro es animal",
+      "Los perros no son animales"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 120,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "digital_culture_premium_p033",
+    "title": "Cultura Digital",
+    "interest": "culture",
+    "text": "¿Qué es un 'meme' en internet?",
+    "hint": "Piensa en contenido viral y humorístico",
+    "options": [
+      "Una canción popular",
+      "Una imagen o video compartido con significado cultural",
+      "Un virus informático",
+      "Un tipo de software"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "emotions_premium_p034",
+    "title": "Gestión Emocional",
+    "interest": "emotions",
+    "text": "¿Cuál es una buena manera de manejar el estrés?",
+    "hint": "Piensa en técnicas saludables",
+    "options": [
+      "Ignorar el problema",
+      "Practicar la respiración profunda",
+      "Reprimir las emociones",
+      "Evitar hablar con otros"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "emotion_regulation"
+  },
+  {
+    "id": "memory_premium_p035",
+    "title": "Memoria a Corto Plazo",
+    "interest": "memory",
+    "text": "Recuerda la siguiente lista: Manzana, Libro, Perro, Casa. ¿Cuál fue el segundo ítem?",
+    "hint": "Piensa en el orden",
+    "options": [
+      "Perro",
+      "Libro",
+      "Casa",
+      "Manzana"
+    ],
+    "correct": 1,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  },
+  {
+    "id": "attention_premium_p036",
+    "title": "Concentración y Atención",
+    "interest": "attention",
+    "text": "¿Cuál número no pertenece a esta serie? 2, 4, 6, 9, 8, 10",
+    "hint": "Busca el número que rompe la secuencia",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "6"
+    ],
+    "correct": 0,
+    "premium": true,
+    "audience": "user",
+    "ageMin": 13,
+    "ageMax": 18,
+    "difficulty": 3,
+    "objective_id": "reasoning"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "id": "attention_focus",     "name": "Atención y foco",         "short": "Mantener la concentración", "emoji": "🎯" },
+  { "id": "memory",              "name": "Memoria",                  "short": "Recordar mejor",            "emoji": "🧠" },
+  { "id": "reasoning",           "name": "Razonamiento",             "short": "Pensamiento lógico",        "emoji": "🔗" },
+  { "id": "emotion_regulation",  "name": "Regulación emocional",     "short": "Manejar emociones",         "emoji": "💙" },
+  { "id": "executive_functions", "name": "Funciones ejecutivas",     "short": "Planificación y control",   "emoji": "🗂️" }
+]

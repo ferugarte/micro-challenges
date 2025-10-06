@@ -1,0 +1,37 @@
+[
+  {
+    "id": "TMP_001",
+    "title": "Cuenta en contexto",
+    "interest": "sports",
+    "audience": "child",
+    "ageMin": 7,
+    "ageMax": 12,
+    "difficulty": 1,
+    "text": "En {{place}} hay 5 {{obj}} de color {{color}}. Si sumas 3 más, ¿cuántos hay?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 3,
+    "hint": "Piensa en la {{place}}"
+  },
+  {
+    "id": "TMP_002",
+    "title": "Hábitat animal",
+    "interest": "animals",
+    "audience": "child",
+    "ageMin": 8,
+    "ageMax": 14,
+    "difficulty": 1,
+    "text": "El {{animal}} vive en el {{habitat}}. ¿Cuál de estas opciones es correcta?",
+    "options": [
+      "ciudad",
+      "desierto",
+      "mar",
+      "selva"
+    ],
+    "correct": 3
+  }
+]
