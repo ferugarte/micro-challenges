@@ -17,7 +17,7 @@ export default function OnboardingMentorScreen({ navigation }: any) {
 
   function onContinue() {
     if (!ageRange) {
-      Alert.alert('Edad', 'Elegí un rango de edad del niño/adolescente');
+      Alert.alert('Edad', 'Elegí un rango de edad del jugador');
       return;
     }
     if (selected.length < 1) {
@@ -34,12 +34,12 @@ export default function OnboardingMentorScreen({ navigation }: any) {
     <SafeAreaView style={styles.safe}>
       <View style={styles.header}>
         <Text style={styles.title}>Configurar acompañamiento</Text>
-        <Text style={styles.subtitle}>Elegí la edad del niño/adolescente y tus objetivos educativos para personalizar los retos.</Text>
+        <Text style={styles.subtitle}>Elegí la edad del jugador y tus objetivos educativos para personalizar los retos.</Text>
       </View>
 
-      {/* Edad del niño/adolescente */}
+      {/* Edad del jugador */}
       <View style={styles.box}>
-        <Text style={styles.label}>Edad del niño/adolescente:</Text>
+        <Text style={styles.label}>Edad del jugador:</Text>
         <View style={styles.ageWrap}>
           {AGE_RANGES.map(r => {
             const active = r === ageRange;
