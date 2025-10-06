@@ -1,330 +1,752 @@
 [
   {
-    "id": "mc001",
-    "title": "Suma mental",
-    "category": "math",
-    "text": "¿Cuánto es 27 + 35?",
-    "hint": "20+30 y luego unidades",
+    "id": "math_basic_f001",
+    "title": "Suma",
+    "interest": "math_basic",
+    "text": "¿Cuánto es 6 + 7?",
+    "hint": "Piensa 6+4=10 y faltan 3",
     "options": [
-      "52",
-      "60",
-      "62",
-      "63"
+      "11",
+      "12",
+      "13",
+      "14"
     ],
     "correct": 2
   },
   {
-    "id": "mc002",
-    "title": "Doble o nada",
-    "category": "logic",
-    "text": "Completa la secuencia: 2, 4, 8, 16, ¿?",
-    "hint": "Duplica",
+    "id": "math_basic_f002",
+    "title": "Multiplicación",
+    "interest": "math_basic",
+    "text": "¿Cuánto es 5 × 4?",
+    "hint": "Contar de 5 en 5",
     "options": [
+      "9",
       "20",
-      "24",
-      "30",
-      "32"
-    ],
-    "correct": 3
-  },
-  {
-    "id": "mc003",
-    "title": "Anagrama",
-    "category": "language",
-    "text": "Reordena: R A S E C A",
-    "hint": "Camino peatonal",
-    "options": [
-      "CASERA",
-      "ACERAS",
-      "ESCARA",
-      "ACERAR"
+      "25",
+      "40"
     ],
     "correct": 1
   },
   {
-    "id": "mc004",
-    "title": "Capicúa",
-    "category": "math",
-    "text": "¿Es capicúa el número 1331?",
-    "hint": "Se lee igual al derecho y al revés",
-    "options": [
-      "sí",
-      "no"
-    ],
-    "correct": 0
+    "id": "math_basic_f003",
+    "title": "Número par",
+    "interest": "math_basic",
+    "text": "Escribe un número par menor que 10",
+    "hint": "Cualquiera: 2,4,6,8",
+    "solution": "8"
   },
   {
-    "id": "mc005",
-    "title": "Adivinanza",
-    "category": "logic",
-    "text": "Tengo agujeros pero puedo contener agua. ¿Qué soy?",
-    "hint": "Se usa en la cocina",
+    "id": "fun_science_f005",
+    "title": "Pregunta rápida",
+    "interest": "fun_science",
+    "text": "¿Cuál es la opción correcta sobre ciencia divertida?",
+    "hint": "Piensa simple",
     "options": [
-      "colador",
-      "esponja",
-      "red",
-      "jarra"
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
     ],
     "correct": 1
   },
   {
-    "id": "mc006",
-    "title": "Memoria",
-    "category": "memory",
-    "text": "Recordá: SOL – ROJO – 3. ¿Cuál era el número?",
-    "hint": "Último ítem",
+    "id": "fun_science_f006",
+    "title": "Elige la correcta",
+    "interest": "fun_science",
+    "text": "En ciencia divertida, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "fun_science_f007",
+    "title": "Respuesta corta",
+    "interest": "fun_science",
+    "text": "Escribe una palabra relacionada con ciencia divertida",
+    "hint": "Una palabra sencilla",
+    "solution": "ciencia"
+  },
+  {
+    "id": "animals_f001",
+    "title": "¿Quién ladra?",
+    "interest": "animals",
+    "text": "El animal que ladra es…",
+    "hint": "Mascota común",
+    "options": [
+      "Gato",
+      "Vaca",
+      "Perro",
+      "Pato"
     ],
     "correct": 2
   },
   {
-    "id": "mc007",
-    "title": "Unidades",
-    "category": "math",
-    "text": "Convierte 2,5 metros a centímetros",
-    "hint": "1 m = 100 cm",
+    "id": "animals_f002",
+    "title": "Hábitat",
+    "interest": "animals",
+    "text": "El pingüino vive en…",
+    "hint": "Zonas frías",
     "options": [
-      "25",
-      "250",
-      "2500",
-      "0,25"
+      "Desierto",
+      "Polos",
+      "Selva",
+      "Sabana"
     ],
     "correct": 1
   },
   {
-    "id": "mc008",
-    "title": "Días",
-    "category": "logic",
-    "text": "Lunes, martes, miércoles, __ , viernes…",
-    "hint": "Cuarto día",
-    "options": [
-      "jueves",
-      "sábado",
-      "domingo",
-      "lunes"
-    ],
-    "correct": 0
+    "id": "animals_f003",
+    "title": "Cría del perro",
+    "interest": "animals",
+    "text": "¿Cómo se llama la cría del perro?",
+    "hint": "Empieza con 'c'",
+    "solution": "cachorro"
   },
   {
-    "id": "mc009",
+    "id": "sports_f001",
+    "title": "Pelota naranja",
+    "interest": "sports",
+    "text": "¿Qué deporte usa pelota naranja a menudo?",
+    "hint": "Aros",
+    "options": [
+      "Fútbol",
+      "Rugby",
+      "Básquetbol",
+      "Vóley"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "sports_f002",
+    "title": "Equipo",
+    "interest": "sports",
+    "text": "¿Cuántos jugadores por equipo en cancha de fútbol?",
+    "hint": "Regla básica",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "sports_f003",
+    "title": "Lugar de natación",
+    "interest": "sports",
+    "text": "Lugar donde se practica natación (una palabra)",
+    "hint": "Empieza con p",
+    "solution": "piscina"
+  },
+  {
+    "id": "music_f017",
+    "title": "Pregunta rápida",
+    "interest": "music",
+    "text": "¿Cuál es la opción correcta sobre música?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "music_f018",
+    "title": "Elige la correcta",
+    "interest": "music",
+    "text": "En música, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "music_f019",
+    "title": "Respuesta corta",
+    "interest": "music",
+    "text": "Escribe una palabra relacionada con música",
+    "hint": "Una palabra sencilla",
+    "solution": "música"
+  },
+  {
+    "id": "art_f021",
+    "title": "Pregunta rápida",
+    "interest": "art",
+    "text": "¿Cuál es la opción correcta sobre arte/dibujo?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "art_f022",
+    "title": "Elige la correcta",
+    "interest": "art",
+    "text": "En arte/dibujo, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "art_f023",
+    "title": "Respuesta corta",
+    "interest": "art",
+    "text": "Escribe una palabra relacionada con arte/dibujo",
+    "hint": "Una palabra sencilla",
+    "solution": "arte"
+  },
+  {
+    "id": "videogames_f025",
+    "title": "Pregunta rápida",
+    "interest": "videogames",
+    "text": "¿Cuál es la opción correcta sobre videojuegos?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "videogames_f026",
+    "title": "Elige la correcta",
+    "interest": "videogames",
+    "text": "En videojuegos, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "videogames_f027",
+    "title": "Respuesta corta",
+    "interest": "videogames",
+    "text": "Escribe una palabra relacionada con videojuegos",
+    "hint": "Una palabra sencilla",
+    "solution": "videojuegos"
+  },
+  {
+    "id": "tech_f029",
+    "title": "Pregunta rápida",
+    "interest": "tech",
+    "text": "¿Cuál es la opción correcta sobre tecnología?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "tech_f030",
+    "title": "Elige la correcta",
+    "interest": "tech",
+    "text": "En tecnología, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "tech_f031",
+    "title": "Respuesta corta",
+    "interest": "tech",
+    "text": "Escribe una palabra relacionada con tecnología",
+    "hint": "Una palabra sencilla",
+    "solution": "tecnología"
+  },
+  {
+    "id": "nature_f033",
+    "title": "Pregunta rápida",
+    "interest": "nature",
+    "text": "¿Cuál es la opción correcta sobre naturaleza?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "nature_f034",
+    "title": "Elige la correcta",
+    "interest": "nature",
+    "text": "En naturaleza, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "nature_f035",
+    "title": "Respuesta corta",
+    "interest": "nature",
+    "text": "Escribe una palabra relacionada con naturaleza",
+    "hint": "Una palabra sencilla",
+    "solution": "naturaleza"
+  },
+  {
+    "id": "history_f037",
+    "title": "Pregunta rápida",
+    "interest": "history",
+    "text": "¿Cuál es la opción correcta sobre historia simple?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "history_f038",
+    "title": "Elige la correcta",
+    "interest": "history",
+    "text": "En historia simple, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "history_f039",
+    "title": "Respuesta corta",
+    "interest": "history",
+    "text": "Escribe una palabra relacionada con historia simple",
+    "hint": "Una palabra sencilla",
+    "solution": "historia"
+  },
+  {
+    "id": "geo_f041",
+    "title": "Pregunta rápida",
+    "interest": "geo",
+    "text": "¿Cuál es la opción correcta sobre geografía fácil?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "geo_f042",
+    "title": "Elige la correcta",
+    "interest": "geo",
+    "text": "En geografía fácil, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "geo_f043",
+    "title": "Respuesta corta",
+    "interest": "geo",
+    "text": "Escribe una palabra relacionada con geografía fácil",
+    "hint": "Una palabra sencilla",
+    "solution": "geografía"
+  },
+  {
+    "id": "language_f001",
     "title": "Vocal",
-    "category": "language",
-    "text": "Completa: M_R – ¿Qué letra falta?",
-    "hint": "Piensa en MAR",
+    "interest": "language",
+    "text": "Completa: _ASA (cosa de la cocina)",
+    "hint": "Sostener",
     "options": [
-      "a",
-      "e",
-      "i",
-      "o"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "mc010",
-    "title": "Ordena",
-    "category": "math",
-    "text": "Ordena de menor a mayor: 12, 5, 19, 7",
-    "hint": "Compara",
-    "options": [
-      "12,5,7,19",
-      "5,7,12,19",
-      "7,5,12,19",
-      "5,12,7,19"
+      "M",
+      "P",
+      "T",
+      "C"
     ],
     "correct": 1
   },
   {
-    "id": "mc011",
-    "title": "Fibonacci",
-    "category": "logic",
-    "text": "1, 1, 2, 3, 5, ¿?",
-    "hint": "Suma los dos anteriores",
+    "id": "language_f002",
+    "title": "Sinónimo",
+    "interest": "language",
+    "text": "Sinónimo de 'feliz'",
+    "hint": "Empieza con c",
+    "options": [
+      "contento",
+      "alto",
+      "lento",
+      "verde"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "language_f003",
+    "title": "Antónimo",
+    "interest": "language",
+    "text": "Antónimo de 'alto'",
+    "hint": "Empieza con b",
+    "solution": "bajo"
+  },
+  {
+    "id": "social_f049",
+    "title": "Pregunta rápida",
+    "interest": "social",
+    "text": "¿Cuál es la opción correcta sobre habilidades sociales?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "social_f050",
+    "title": "Elige la correcta",
+    "interest": "social",
+    "text": "En habilidades sociales, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "social_f051",
+    "title": "Respuesta corta",
+    "interest": "social",
+    "text": "Escribe una palabra relacionada con habilidades sociales",
+    "hint": "Una palabra sencilla",
+    "solution": "habilidades"
+  },
+  {
+    "id": "health_f053",
+    "title": "Pregunta rápida",
+    "interest": "health",
+    "text": "¿Cuál es la opción correcta sobre salud y hábitos?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "health_f054",
+    "title": "Elige la correcta",
+    "interest": "health",
+    "text": "En salud y hábitos, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "health_f055",
+    "title": "Respuesta corta",
+    "interest": "health",
+    "text": "Escribe una palabra relacionada con salud y hábitos",
+    "hint": "Una palabra sencilla",
+    "solution": "salud"
+  },
+  {
+    "id": "digital_safety_f057",
+    "title": "Pregunta rápida",
+    "interest": "digital_safety",
+    "text": "¿Cuál es la opción correcta sobre seguridad digital?",
+    "hint": "Piensa simple",
+    "options": [
+      "No lo sé",
+      "Esto",
+      "Aquello",
+      "Lo otro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "digital_safety_f058",
+    "title": "Elige la correcta",
+    "interest": "digital_safety",
+    "text": "En seguridad digital, ¿qué opción es la más adecuada?",
+    "hint": "Lo más positivo",
+    "options": [
+      "Tal vez",
+      "Sí",
+      "No",
+      "Depende"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "digital_safety_f059",
+    "title": "Respuesta corta",
+    "interest": "digital_safety",
+    "text": "Escribe una palabra relacionada con seguridad digital",
+    "hint": "Una palabra sencilla",
+    "solution": "seguridad"
+  },
+  {
+    "id": "math_basic_p004",
+    "title": "Desafío",
+    "interest": "math_basic",
+    "text": "¿Cuál es la mitad de 18?",
+    "hint": "18/2",
     "options": [
       "7",
       "8",
       "9",
       "10"
     ],
-    "correct": 1
-  },
-  {
-    "id": "mc012",
-    "title": "Sílabas",
-    "category": "language",
-    "text": "Separa CAMINO: CA – MI – __",
-    "hint": "Tercera sílaba",
-    "options": [
-      "NA",
-      "NO",
-      "NÓ",
-      "MÍ"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "mc013",
-    "title": "Resta",
-    "category": "math",
-    "text": "1000 − 275",
-    "hint": "1000 - 300 + 25",
-    "options": [
-      "715",
-      "720",
-      "725",
-      "735"
-    ],
     "correct": 2
   },
   {
-    "id": "mc014",
-    "title": "Sombra",
-    "category": "logic",
-    "text": "Al atardecer, el sol está al oeste. ¿Hacia dónde cae la sombra?",
-    "hint": "Opuesto al sol",
+    "id": "fun_science_p008",
+    "title": "Reto premium",
+    "interest": "fun_science",
+    "text": "Pregunta especial de ciencia divertida: ¿qué elegirías?",
+    "hint": "A veces lo primero",
     "options": [
-      "norte",
-      "sur",
-      "este",
-      "oeste"
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
     ],
-    "correct": 2
+    "correct": 0
   },
   {
-    "id": "mc015",
-    "title": "Antónimo",
-    "category": "language",
-    "text": "Antónimo de ‘rápido’",
-    "hint": "Empieza con l",
+    "id": "animals_p004",
+    "title": "Alimento",
+    "interest": "animals",
+    "text": "Los koalas comen principalmente…",
+    "hint": "Árbol favorito",
     "options": [
-      "ligero",
-      "liviano",
-      "lento",
-      "largo"
+      "Hojas de eucalipto",
+      "Pasto",
+      "Carne",
+      "Peces"
     ],
-    "correct": 2
+    "correct": 0
   },
   {
-    "id": "c001",
-    "title": "Suma rápida",
-    "category": "math",
-    "text": "¿Cuánto es 27 + 35?",
-    "hint": "20+30 y luego unidades",
-    "solution": "62"
+    "id": "sports_p004",
+    "title": "Raqueta",
+    "interest": "sports",
+    "text": "Deporte con raqueta y red central",
+    "hint": "Golpear pelota pequeña",
+    "options": [
+      "Tenis",
+      "Fútbol",
+      "Béisbol",
+      "Golf"
+    ],
+    "correct": 0
   },
   {
-    "id": "c002",
-    "title": "Secuencia doble",
-    "category": "logic",
-    "text": "Completa: 3, 6, 12, 24, ¿?",
-    "hint": "Duplica",
-    "solution": "48"
+    "id": "music_p020",
+    "title": "Reto premium",
+    "interest": "music",
+    "text": "Pregunta especial de música: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c003",
-    "title": "Anagrama",
-    "category": "language",
-    "text": "Reordena: R O M A",
-    "hint": "Capital europea",
-    "solution": "ROMA"
+    "id": "art_p024",
+    "title": "Reto premium",
+    "interest": "art",
+    "text": "Pregunta especial de arte/dibujo: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c004",
-    "title": "Capicúa",
-    "category": "math",
-    "text": "¿Es capicúa 1441? (sí/no)",
-    "hint": "Lee al revés",
-    "solution": "sí"
+    "id": "videogames_p028",
+    "title": "Reto premium",
+    "interest": "videogames",
+    "text": "Pregunta especial de videojuegos: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c005",
-    "title": "Adivinanza",
-    "category": "logic",
-    "text": "Cae de día y de noche, pero no se rompe. ¿Qué es?",
-    "hint": "Fenómeno",
-    "solution": "lluvia"
+    "id": "tech_p032",
+    "title": "Reto premium",
+    "interest": "tech",
+    "text": "Pregunta especial de tecnología: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c006",
-    "title": "Memoria",
-    "category": "memory",
-    "text": "Recordá: LUNA – AZUL – 9. ¿Cuál era el color?",
-    "hint": "Segundo ítem",
-    "solution": "azul"
+    "id": "nature_p036",
+    "title": "Reto premium",
+    "interest": "nature",
+    "text": "Pregunta especial de naturaleza: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c007",
-    "title": "Unidades",
-    "category": "math",
-    "text": "¿Cuántos mililitros hay en 3 litros?",
-    "hint": "1 l = 1000 ml",
-    "solution": "3000"
+    "id": "history_p040",
+    "title": "Reto premium",
+    "interest": "history",
+    "text": "Pregunta especial de historia simple: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c008",
-    "title": "Calendario",
-    "category": "logic",
-    "text": "¿Cuántos días tiene febrero en un año bisiesto?",
-    "hint": "Bisiesto",
-    "solution": "29"
+    "id": "geo_p044",
+    "title": "Reto premium",
+    "interest": "geo",
+    "text": "Pregunta especial de geografía fácil: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c009",
-    "title": "Vocal",
-    "category": "language",
+    "id": "language_p004",
+    "title": "Letra faltante",
+    "interest": "language",
     "text": "Completa: P_ÑA (fruta)",
-    "hint": "Tiene acento",
-    "solution": "piña"
+    "hint": "Lleva tilde",
+    "options": [
+      "I",
+      "E",
+      "A",
+      "O"
+    ],
+    "correct": 0
   },
   {
-    "id": "c010",
-    "title": "Orden",
-    "category": "math",
-    "text": "Ordena de menor a mayor: 4, 1, 9, 2",
-    "hint": "Compara",
-    "solution": "1,2,4,9"
+    "id": "social_p052",
+    "title": "Reto premium",
+    "interest": "social",
+    "text": "Pregunta especial de habilidades sociales: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c011",
-    "title": "Fibonacci",
-    "category": "logic",
-    "text": "0, 1, 1, 2, 3, 5, ¿?",
-    "hint": "Suma anteriores",
-    "solution": "8"
+    "id": "health_p056",
+    "title": "Reto premium",
+    "interest": "health",
+    "text": "Pregunta especial de salud y hábitos: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c012",
-    "title": "Sílabas",
-    "category": "language",
-    "text": "Separa en sílabas: MALETA (MA – LE – __)",
-    "hint": "Última sílaba",
-    "solution": "TA"
-  },
-  {
-    "id": "c013",
-    "title": "Resta",
-    "category": "math",
-    "text": "700 − 255",
-    "hint": "700 - 300 + 45",
-    "solution": "445"
-  },
-  {
-    "id": "c014",
-    "title": "Sombras",
-    "category": "logic",
-    "text": "Al amanecer el sol está al este. ¿Hacia dónde cae la sombra?",
-    "hint": "Opuesto al sol",
-    "solution": "oeste"
-  },
-  {
-    "id": "c015",
-    "title": "Antónimo",
-    "category": "language",
-    "text": "Antónimo de ‘alto’",
-    "hint": "Empieza con b",
-    "solution": "bajo"
+    "id": "digital_safety_p060",
+    "title": "Reto premium",
+    "interest": "digital_safety",
+    "text": "Pregunta especial de seguridad digital: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   }
 ]

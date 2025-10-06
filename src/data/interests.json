@@ -1,0 +1,77 @@
+[
+  {
+    "id": "math_basic",
+    "name": "Matemática básica",
+    "emoji": "➕"
+  },
+  {
+    "id": "fun_science",
+    "name": "Ciencia divertida",
+    "emoji": "🧪"
+  },
+  {
+    "id": "animals",
+    "name": "Animales",
+    "emoji": "🐾"
+  },
+  {
+    "id": "sports",
+    "name": "Deportes",
+    "emoji": "🏀"
+  },
+  {
+    "id": "music",
+    "name": "Música",
+    "emoji": "🎵"
+  },
+  {
+    "id": "art",
+    "name": "Arte/Dibujo",
+    "emoji": "🎨"
+  },
+  {
+    "id": "videogames",
+    "name": "Videojuegos",
+    "emoji": "🎮"
+  },
+  {
+    "id": "tech",
+    "name": "Tecnología",
+    "emoji": "💻"
+  },
+  {
+    "id": "nature",
+    "name": "Naturaleza",
+    "emoji": "🌿"
+  },
+  {
+    "id": "history",
+    "name": "Historia simple",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "geo",
+    "name": "Geografía fácil",
+    "emoji": "🗺️"
+  },
+  {
+    "id": "language",
+    "name": "Idiomas/Palabras",
+    "emoji": "🔤"
+  },
+  {
+    "id": "social",
+    "name": "Habilidades sociales",
+    "emoji": "🤝"
+  },
+  {
+    "id": "health",
+    "name": "Salud y hábitos",
+    "emoji": "🍎"
+  },
+  {
+    "id": "digital_safety",
+    "name": "Seguridad digital",
+    "emoji": "🔒"
+  }
+]

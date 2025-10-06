@@ -1,82 +1,212 @@
 [
   {
-    "id": "c006",
-    "title": "Memoria",
-    "category": "memory",
-    "text": "Recordá: LUNA – AZUL – 9. ¿Cuál era el color?",
-    "hint": "Segundo ítem",
-    "solution": "azul"
+    "id": "math_basic_p004",
+    "title": "Desafío",
+    "interest": "math_basic",
+    "text": "¿Cuál es la mitad de 18?",
+    "hint": "18/2",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 2
   },
   {
-    "id": "c007",
-    "title": "Unidades",
-    "category": "math",
-    "text": "¿Cuántos mililitros hay en 3 litros?",
-    "hint": "1 l = 1000 ml",
-    "solution": "3000"
+    "id": "fun_science_p008",
+    "title": "Reto premium",
+    "interest": "fun_science",
+    "text": "Pregunta especial de ciencia divertida: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c008",
-    "title": "Calendario",
-    "category": "logic",
-    "text": "¿Cuántos días tiene febrero en un año bisiesto?",
-    "hint": "Bisiesto",
-    "solution": "29"
+    "id": "animals_p004",
+    "title": "Alimento",
+    "interest": "animals",
+    "text": "Los koalas comen principalmente…",
+    "hint": "Árbol favorito",
+    "options": [
+      "Hojas de eucalipto",
+      "Pasto",
+      "Carne",
+      "Peces"
+    ],
+    "correct": 0
   },
   {
-    "id": "c009",
-    "title": "Vocal",
-    "category": "language",
+    "id": "sports_p004",
+    "title": "Raqueta",
+    "interest": "sports",
+    "text": "Deporte con raqueta y red central",
+    "hint": "Golpear pelota pequeña",
+    "options": [
+      "Tenis",
+      "Fútbol",
+      "Béisbol",
+      "Golf"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "music_p020",
+    "title": "Reto premium",
+    "interest": "music",
+    "text": "Pregunta especial de música: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "art_p024",
+    "title": "Reto premium",
+    "interest": "art",
+    "text": "Pregunta especial de arte/dibujo: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "videogames_p028",
+    "title": "Reto premium",
+    "interest": "videogames",
+    "text": "Pregunta especial de videojuegos: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "tech_p032",
+    "title": "Reto premium",
+    "interest": "tech",
+    "text": "Pregunta especial de tecnología: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "nature_p036",
+    "title": "Reto premium",
+    "interest": "nature",
+    "text": "Pregunta especial de naturaleza: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "history_p040",
+    "title": "Reto premium",
+    "interest": "history",
+    "text": "Pregunta especial de historia simple: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "geo_p044",
+    "title": "Reto premium",
+    "interest": "geo",
+    "text": "Pregunta especial de geografía fácil: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "language_p004",
+    "title": "Letra faltante",
+    "interest": "language",
     "text": "Completa: P_ÑA (fruta)",
-    "hint": "Tiene acento",
-    "solution": "piña"
+    "hint": "Lleva tilde",
+    "options": [
+      "I",
+      "E",
+      "A",
+      "O"
+    ],
+    "correct": 0
   },
   {
-    "id": "c010",
-    "title": "Orden",
-    "category": "math",
-    "text": "Ordena de menor a mayor: 4, 1, 9, 2",
-    "hint": "Compara",
-    "solution": "1,2,4,9"
+    "id": "social_p052",
+    "title": "Reto premium",
+    "interest": "social",
+    "text": "Pregunta especial de habilidades sociales: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c011",
-    "title": "Fibonacci",
-    "category": "logic",
-    "text": "0, 1, 1, 2, 3, 5, ¿?",
-    "hint": "Suma anteriores",
-    "solution": "8"
+    "id": "health_p056",
+    "title": "Reto premium",
+    "interest": "health",
+    "text": "Pregunta especial de salud y hábitos: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   },
   {
-    "id": "c012",
-    "title": "Sílabas",
-    "category": "language",
-    "text": "Separa en sílabas: MALETA (MA – LE – __)",
-    "hint": "Última sílaba",
-    "solution": "TA"
-  },
-  {
-    "id": "c013",
-    "title": "Resta",
-    "category": "math",
-    "text": "700 − 255",
-    "hint": "700 - 300 + 45",
-    "solution": "445"
-  },
-  {
-    "id": "c014",
-    "title": "Sombras",
-    "category": "logic",
-    "text": "Al amanecer el sol está al este. ¿Hacia dónde cae la sombra?",
-    "hint": "Opuesto al sol",
-    "solution": "oeste"
-  },
-  {
-    "id": "c015",
-    "title": "Antónimo",
-    "category": "language",
-    "text": "Antónimo de ‘alto’",
-    "hint": "Empieza con b",
-    "solution": "bajo"
+    "id": "digital_safety_p060",
+    "title": "Reto premium",
+    "interest": "digital_safety",
+    "text": "Pregunta especial de seguridad digital: ¿qué elegirías?",
+    "hint": "A veces lo primero",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correct": 0
   }
 ]

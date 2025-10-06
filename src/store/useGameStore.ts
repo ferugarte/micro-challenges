@@ -1,77 +1,102 @@
-// src/store/useGameStore.ts
+// src/store/useGameStore.ts (personalizado con perfil e intereses)
 import create from 'zustand';
 import { isSameDay, startOfDay } from 'date-fns';
-// Local fallback types/helpers (remplaza a ../data/types y ../utils)
+import localInterests from '../data/interests.json';
+import localChallenges from '../data/challenges.json';
+
 export type Challenge = {
   id: string;
   title: string;
-  category?: string;
+  interest: string; // clave de intereses
   text: string;
   hint?: string;
   solution?: string;
-  answer?: string; // por compatibilidad
-  options?: string[]; // para selección múltiple
-  correct?: number;   // índice correcto en options
+  options?: string[];
+  correct?: number;
 };
 
-function pickToday(list: Challenge[]): string | null {
-  if (!Array.isArray(list) || list.length === 0) return null;
-  const idx = Math.floor((Date.now() / 86400000) % list.length);
-  return list[idx].id;
-}
-
 type State = {
+  // Contenido y filtro
   challenges: Challenge[];
+  filtered: Challenge[];
   todaysId: string | null;
+
+  // Perfil
+  age: number | null;
+  interests: string[];
+
+  // Progreso
   solvedIds: string[];
   streak: number;
   points: number;
   solvedToday: boolean;
-  premium: boolean;
   lastSolvedAt?: string;
+
+  // Métodos
   bootstrap: () => Promise<void>;
-  getTodaysChallenge: () => Challenge;
+  setProfile: (age: number, interests: string[]) => void;
+  getTodaysChallenge: () => Challenge | null;
   checkAnswer: (input: string) => boolean;
-  setPremium: (v: boolean) => void;
+  checkOption: (index: number) => boolean;
   advanceToNext: () => void;
   advanceToRandom: () => void;
   randomizeToday: () => void;
 };
 
-const useGameStore = create<State>((set, get) => ({
-  challenges: [],
+function pickId(list: Challenge[]): string | null {
+  if (!Array.isArray(list) || list.length === 0) return null;
+  const idx = Math.floor((Date.now() / 86400000) % list.length);
+  return list[idx].id;
+}
+
+function randomId(list: Challenge[], excludeId?: string | null) {
+  const pool = excludeId ? list.filter(x => x.id !== excludeId) : list;
+  if (!pool.length) return null;
+  return pool[Math.floor(Math.random() * pool.length)].id;
+}
+
+export const useGameStore = create<State>((set, get) => ({
+  challenges: localChallenges as Challenge[],
+  filtered: [],
   todaysId: null,
+  age: null,
+  interests: [],
   solvedIds: [],
   streak: 0,
   points: 0,
   solvedToday: false,
-  premium: false,
   lastSolvedAt: undefined,
 
   bootstrap: async () => {
-    try {
-      const localChallenges: Challenge[] = require('../data/challenges.json');
-      const todays = pickToday(localChallenges);
-      set({ challenges: localChallenges, todaysId: todays });
-      const ls = get().lastSolvedAt;
-      if (ls) {
-        const today = startOfDay(new Date());
-        const last = startOfDay(new Date(ls));
-        set({ solvedToday: isSameDay(today, last) });
-      }
-    } catch {
-      set({ challenges: [], todaysId: null, solvedToday: false });
-    }
+    // Si ya hay perfil, filtramos según intereses
+    const { age, interests } = get();
+    const all = (localChallenges as Challenge[]);
+    const filtered = (Array.isArray(interests) && interests.length >= 1)
+      ? all.filter(c => interests.includes(c.interest))
+      : all;
+    const todays = pickId(filtered);
+    set({ challenges: all, filtered, todaysId: todays });
+  },
+
+  setProfile: (age, interests) => {
+    const all = (localChallenges as Challenge[]);
+    const filtered = (Array.isArray(interests) && interests.length >= 1)
+      ? all.filter(c => interests.includes(c.interest))
+      : all;
+    const todays = pickId(filtered);
+    set({ age, interests, filtered, todaysId: todays, solvedToday: false });
   },
 
   getTodaysChallenge: () => {
-    const { challenges, todaysId } = get();
-    return (challenges.find(c => c.id === todaysId) as Challenge) ?? ({} as Challenge);
+    const { filtered, todaysId } = get();
+    if (!todaysId) return null;
+    return filtered.find(c => c.id === todaysId) ?? null;
   },
 
   checkAnswer: (input) => {
     const c = get().getTodaysChallenge();
-    const expected = (c as any).solution ?? (c as any).answer ?? '';
+    if (!c) return false;
+    const expected = (c as any).solution ?? '';
     const ok = String(input).trim().toLowerCase() === String(expected).trim().toLowerCase();
     if (!ok) return false;
     const now = new Date();
@@ -115,30 +140,24 @@ const useGameStore = create<State>((set, get) => ({
     return true;
   },
 
-  setPremium: (v) => set({ premium: v }),
-
   advanceToNext: () => {
-    const { challenges, todaysId } = get();
-    if (!Array.isArray(challenges) || challenges.length === 0) return;
-    const idx = Math.max(0, challenges.findIndex(c => c.id === todaysId));
-    const next = challenges[(idx + 1) % challenges.length];
+    const { filtered, todaysId } = get();
+    if (!filtered.length) return;
+    const idx = Math.max(0, filtered.findIndex(c => c.id === todaysId));
+    const next = filtered[(idx + 1) % filtered.length];
     if (next) set({ todaysId: next.id, solvedToday: false });
   },
 
   advanceToRandom: () => {
-    const { challenges, todaysId } = get();
-    if (!Array.isArray(challenges) || challenges.length === 0) return;
-    const pool = challenges.filter(c => c.id !== todaysId);
-    if (pool.length === 0) return;
-    const next = pool[Math.floor(Math.random() * pool.length)];
-    set({ todaysId: next.id, solvedToday: false });
+    const { filtered, todaysId } = get();
+    const nextId = randomId(filtered, todaysId);
+    if (nextId) set({ todaysId: nextId, solvedToday: false });
   },
 
   randomizeToday: () => {
-    const { challenges } = get();
-    if (!Array.isArray(challenges) || challenges.length === 0) return;
-    const next = challenges[Math.floor(Math.random() * challenges.length)];
-    set({ todaysId: next.id, solvedToday: false });
+    const { filtered } = get();
+    const nextId = randomId(filtered);
+    if (nextId) set({ todaysId: nextId, solvedToday: false });
   }
 }));
 
