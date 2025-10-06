@@ -1,17 +1,16 @@
+// src/screens/RoleSelectionScreen.tsx
 import React from 'react';
 import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import useGameStore from '../store/useGameStore';
 
 export default function RoleSelectionScreen({ navigation }: any) {
-  // Si tu store ya tiene setRole o setProfile, úsalo; si no, navegamos directo
   const setProfile = useGameStore.getState?.().setProfile as
-    | ((age: number | null, interests: string[] | null, role?: 'child' | 'mentor', objectives?: string[] | null) => void)
+    | ((age: number | null, interests: string[] | null, role?: 'user' | 'mentor', objectives?: string[] | null) => void)
     | undefined;
 
-  function pick(role: 'child' | 'mentor') {
-    // Si hay setter, guardamos el rol y seguimos
+  function pick(role: 'user' | 'mentor') {
     try { setProfile?.(null as any, null as any, role, null); } catch {}
-    if (role === 'child') navigation.replace('OnboardingChild');
+    if (role === 'user') navigation.replace('OnboardingUser');
     else navigation.replace('OnboardingMentor');
   }
 
@@ -21,12 +20,12 @@ export default function RoleSelectionScreen({ navigation }: any) {
         <Text style={styles.title}>¿Quién usará la app?</Text>
         <Text style={styles.subtitle}>Elegí tu perfil para personalizar la experiencia.</Text>
 
-        <TouchableOpacity style={styles.btn} onPress={() => pick('child')}>
-          <Text style={styles.btnText}>🧒 Soy niño / adolescente</Text>
+        <TouchableOpacity style={styles.btn} onPress={() => pick('user')}>
+          <Text style={styles.btnText}>👤 Soy Jugador</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={[styles.btn, styles.outline]} onPress={() => pick('mentor')}>
-          <Text style={[styles.btnText, styles.outlineText]}>👩‍🏫 Soy padre / tutor / mentor</Text>
+          <Text style={[styles.btnText, styles.outlineText]}>👩‍🏫 Soy tutor / mentor</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

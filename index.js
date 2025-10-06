@@ -13,7 +13,7 @@ import ProfileScreen from './src/screens/ProfileScreen';
 import PaywallScreen from './src/screens/PaywallScreen';
 
 import RoleSelectionScreen from './src/screens/RoleSelectionScreen';
-import OnboardingChildScreen from './src/screens/OnboardingChildScreen';
+import OnboardingUserScreen from './src/screens/OnboardingUserScreen';
 import OnboardingMentorScreen from './src/screens/OnboardingMentorScreen';
 
 const Stack = createNativeStackNavigator();
@@ -24,16 +24,16 @@ function RootNavigator() {
   const interests = useGameStore(s => s.interests);
   const objectives = useGameStore(s => s.objectives);
 
-  const hasChildProfile = role === 'child' && !!age && Array.isArray(interests) && interests.length >= 3;
+  const hasUserProfile = role === 'user' && !!age && Array.isArray(interests) && interests.length >= 3;
   const hasMentorProfile = role === 'mentor' && Array.isArray(objectives) && objectives.length >= 1;
-  const hasProfile = hasChildProfile || hasMentorProfile;
+  const hasProfile = hasUserProfile || hasMentorProfile;
 
   return (
     <Stack.Navigator>
       {!hasProfile && (
         <>
           <Stack.Screen name="RoleSelect" component={RoleSelectionScreen} options={{ title: '¿Quién usará la app?' }} />
-          <Stack.Screen name="OnboardingChild" component={OnboardingChildScreen} options={{ title: 'Tu perfil' }} />
+          <Stack.Screen name="OnboardingUser" component={OnboardingUserScreen} options={{ title: 'Tu perfil' }} />
           <Stack.Screen name="OnboardingMentor" component={OnboardingMentorScreen} options={{ title: 'Perfil de Tutor' }} />
         </>
       )}

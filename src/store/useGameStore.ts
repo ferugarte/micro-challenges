@@ -1,29 +1,38 @@
-// src/store/useGameStore.ts (personalizado con perfil e intereses)
+// src/store/useGameStore.ts (perfil niño/mentor + edad/intereses/objetivos)
 import create from 'zustand';
 import { isSameDay, startOfDay } from 'date-fns';
-import localInterests from '../data/interests.json';
 import localChallenges from '../data/challenges.json';
 
+// ---- Tipos de contenido ----
 export type Challenge = {
   id: string;
   title: string;
   interest: string; // clave de intereses
   text: string;
   hint?: string;
+  // Para preguntas abiertas
   solution?: string;
+  // Para opción múltiple
   options?: string[];
   correct?: number;
+  // Metadatos para segmentación (opcionales en JSON)
+  audience?: 'user' | 'mentor' | 'both';
+  ageMin?: number;
+  ageMax?: number;
+  difficulty?: number;
+  premium?: boolean;
 };
 
 type State = {
-  // Contenido y filtro
+  // Contenido
   challenges: Challenge[];
-  filtered: Challenge[];
   todaysId: string | null;
 
   // Perfil
-  age: number | null;
-  interests: string[];
+  role?: 'user' | 'mentor';
+  age: number | null;          // edad del usuario (o null si no aplica)
+  interests: string[];         // intereses del niño (modo user)
+  objectives: string[];        // objetivos del mentor (modo mentor)
 
   // Progreso
   solvedIds: string[];
@@ -34,13 +43,22 @@ type State = {
 
   // Métodos
   bootstrap: () => Promise<void>;
-  setProfile: (age: number, interests: string[]) => void;
+  setProfile: (age: number | null, interests: string[] | null, role?: 'user' | 'mentor', objectives?: string[] | null) => void;
   getTodaysChallenge: () => Challenge | null;
   checkAnswer: (input: string) => boolean;
   checkOption: (index: number) => boolean;
   advanceToNext: () => void;
   advanceToRandom: () => void;
   randomizeToday: () => void;
+};
+
+// ---- Utilidades ----
+const objectiveInterestMap: Record<string, string[]> = {
+  attention_focus:     ['math_basic','sports','art','videogames','music','animals'],
+  memory:              ['memory','language','music','history','geo'],
+  reasoning:           ['logic','math_basic','tech','social'],
+  emotion_regulation:  ['social','health','sports','art','music'],
+  executive_functions: ['math_basic','tech','videogames','social','sports']
 };
 
 function pickId(list: Challenge[]): string | null {
@@ -55,12 +73,73 @@ function randomId(list: Challenge[], excludeId?: string | null) {
   return pool[Math.floor(Math.random() * pool.length)].id;
 }
 
+// Filtro para modo mentor (edad + objetivos → intereses mapeados)
+function filterForMentor(challenges: Challenge[], age?: number | null, objectives: string[] = []) {
+  if (!Array.isArray(challenges) || challenges.length === 0) return [];
+  const allowedInterests = new Set<string>(
+    objectives.flatMap(obj => objectiveInterestMap[obj] ?? [])
+  );
+
+  // 1) estricto: audience mentor/both + edad + interés permitido
+  let pool = challenges.filter(ch => {
+    const okAudience = ch.audience === 'mentor' || ch.audience === 'both';
+    const okAge = typeof age === 'number'
+      ? (typeof ch.ageMin === 'number' ? age >= ch.ageMin : true) &&
+        (typeof ch.ageMax === 'number' ? age <= ch.ageMax : true)
+      : true;
+    const okInterest = allowedInterests.size > 0 ? allowedInterests.has(ch.interest) : true;
+    return okAudience && okAge && okInterest;
+  });
+
+  // 2) sin interés (mantiene audience+edad)
+  if (pool.length === 0) {
+    pool = challenges.filter(ch => {
+      const okAudience = ch.audience === 'mentor' || ch.audience === 'both';
+      const okAge = typeof age === 'number'
+        ? (typeof ch.ageMin === 'number' ? age >= ch.ageMin : true) &&
+          (typeof ch.ageMax === 'number' ? age <= ch.ageMax : true)
+        : true;
+      return okAudience && okAge;
+    });
+  }
+
+  // 3) solo audience
+  if (pool.length === 0) {
+    pool = challenges.filter(ch => ch.audience === 'mentor' || ch.audience === 'both');
+  }
+
+  // 4) último recurso
+  if (pool.length === 0) pool = challenges;
+  return pool;
+}
+
+// Filtro para modo user (edad + intereses)
+function filterForUser(challenges: Challenge[], age?: number | null, interests: string[] = []) {
+  let pool = challenges.filter(ch => {
+    const okAudience = ch.audience === 'user' || ch.audience === 'both' || !ch.audience;
+    const okAge = typeof age === 'number'
+      ? (typeof ch.ageMin === 'number' ? age >= ch.ageMin : true) &&
+        (typeof ch.ageMax === 'number' ? age <= ch.ageMax : true)
+      : true;
+    const okInterest = Array.isArray(interests) && interests.length > 0
+      ? interests.includes(ch.interest)
+      : true;
+    return okAudience && okAge && okInterest;
+  });
+  if (pool.length === 0) pool = challenges; // fallback suave
+  return pool;
+}
+
+// ---- Store ----
 export const useGameStore = create<State>((set, get) => ({
-  challenges: localChallenges as Challenge[],
-  filtered: [],
+  challenges: (localChallenges as Challenge[]),
   todaysId: null,
+
+  role: undefined,
   age: null,
   interests: [],
+  objectives: [],
+
   solvedIds: [],
   streak: 0,
   points: 0,
@@ -68,29 +147,49 @@ export const useGameStore = create<State>((set, get) => ({
   lastSolvedAt: undefined,
 
   bootstrap: async () => {
-    // Si ya hay perfil, filtramos según intereses
-    const { age, interests } = get();
+    // Solo prepara un "todaysId" inicial neutro (sin saber perfil aún)
     const all = (localChallenges as Challenge[]);
-    const filtered = (Array.isArray(interests) && interests.length >= 1)
-      ? all.filter(c => interests.includes(c.interest))
-      : all;
-    const todays = pickId(filtered);
-    set({ challenges: all, filtered, todaysId: todays });
+    const todays = pickId(all);
+    set({ challenges: all, todaysId: todays });
   },
 
-  setProfile: (age, interests) => {
+  setProfile: (age, interests, role, objectives) => {
     const all = (localChallenges as Challenge[]);
-    const filtered = (Array.isArray(interests) && interests.length >= 1)
-      ? all.filter(c => interests.includes(c.interest))
-      : all;
-    const todays = pickId(filtered);
-    set({ age, interests, filtered, todaysId: todays, solvedToday: false });
+    const theRole = role ?? 'user';
+    const theAge = typeof age === 'number' ? age : null;
+    const theInterests = Array.isArray(interests) ? interests : [];
+    const theObjectives = Array.isArray(objectives) ? objectives : [];
+
+    // Construir pool según rol
+    const pool = theRole === 'mentor'
+      ? filterForMentor(all, theAge, theObjectives)
+      : filterForUser(all, theAge, theInterests);
+
+    const todays = pickId(pool);
+    set({
+      role: theRole,
+      age: theAge,
+      interests: theInterests,
+      objectives: theObjectives,
+      todaysId: todays,
+      solvedToday: false
+    });
   },
 
   getTodaysChallenge: () => {
-    const { filtered, todaysId } = get();
-    if (!todaysId) return null;
-    return filtered.find(c => c.id === todaysId) ?? null;
+    const s = get();
+    const { role, age, objectives, interests, challenges, todaysId } = s;
+
+    let pool = role === 'mentor'
+      ? filterForMentor(challenges, age, objectives)
+      : filterForUser(challenges, age, interests);
+
+    // si el todaysId ya no está en el pool, elegir uno del pool
+    const current = pool.find(c => c.id === todaysId);
+    if (current) return current;
+
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    return pick ?? (challenges[0] as any);
   },
 
   checkAnswer: (input) => {
@@ -141,22 +240,40 @@ export const useGameStore = create<State>((set, get) => ({
   },
 
   advanceToNext: () => {
-    const { filtered, todaysId } = get();
-    if (!filtered.length) return;
-    const idx = Math.max(0, filtered.findIndex(c => c.id === todaysId));
-    const next = filtered[(idx + 1) % filtered.length];
-    if (next) set({ todaysId: next.id, solvedToday: false });
+    const s = get();
+    const { role, age, objectives, interests, challenges, todaysId } = s;
+
+    const pool = role === 'mentor'
+      ? filterForMentor(challenges, age, objectives)
+      : filterForUser(challenges, age, interests);
+
+    if (pool.length === 0) return;
+    const i = Math.max(0, pool.findIndex(c => c.id === todaysId));
+    const next = pool[(i + 1) % pool.length];
+    set({ todaysId: next.id, solvedToday: false });
   },
 
   advanceToRandom: () => {
-    const { filtered, todaysId } = get();
-    const nextId = randomId(filtered, todaysId);
+    const s = get();
+    const { role, age, objectives, interests, challenges, todaysId } = s;
+
+    const pool = role === 'mentor'
+      ? filterForMentor(challenges, age, objectives)
+      : filterForUser(challenges, age, interests);
+
+    const nextId = randomId(pool, todaysId);
     if (nextId) set({ todaysId: nextId, solvedToday: false });
   },
 
   randomizeToday: () => {
-    const { filtered } = get();
-    const nextId = randomId(filtered);
+    const s = get();
+    const { role, age, objectives, interests, challenges } = s;
+
+    const pool = role === 'mentor'
+      ? filterForMentor(challenges, age, objectives)
+      : filterForUser(challenges, age, interests);
+
+    const nextId = randomId(pool);
     if (nextId) set({ todaysId: nextId, solvedToday: false });
   }
 }));

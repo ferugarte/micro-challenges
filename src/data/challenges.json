@@ -1,752 +1,2090 @@
 [
   {
-    "id": "math_basic_f001",
-    "title": "Suma",
+    "id": "MAT_300",
     "interest": "math_basic",
-    "text": "¿Cuánto es 6 + 7?",
-    "hint": "Piensa 6+4=10 y faltan 3",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Operación combinada",
+    "text": "Resuelve: (45 − 17) ÷ 4",
     "options": [
-      "11",
-      "12",
-      "13",
-      "14"
-    ],
-    "correct": 2
-  },
-  {
-    "id": "math_basic_f002",
-    "title": "Multiplicación",
-    "interest": "math_basic",
-    "text": "¿Cuánto es 5 × 4?",
-    "hint": "Contar de 5 en 5",
-    "options": [
-      "9",
-      "20",
-      "25",
-      "40"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "math_basic_f003",
-    "title": "Número par",
-    "interest": "math_basic",
-    "text": "Escribe un número par menor que 10",
-    "hint": "Cualquiera: 2,4,6,8",
-    "solution": "8"
-  },
-  {
-    "id": "fun_science_f005",
-    "title": "Pregunta rápida",
-    "interest": "fun_science",
-    "text": "¿Cuál es la opción correcta sobre ciencia divertida?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "fun_science_f006",
-    "title": "Elige la correcta",
-    "interest": "fun_science",
-    "text": "En ciencia divertida, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "fun_science_f007",
-    "title": "Respuesta corta",
-    "interest": "fun_science",
-    "text": "Escribe una palabra relacionada con ciencia divertida",
-    "hint": "Una palabra sencilla",
-    "solution": "ciencia"
-  },
-  {
-    "id": "animals_f001",
-    "title": "¿Quién ladra?",
-    "interest": "animals",
-    "text": "El animal que ladra es…",
-    "hint": "Mascota común",
-    "options": [
-      "Gato",
-      "Vaca",
-      "Perro",
-      "Pato"
-    ],
-    "correct": 2
-  },
-  {
-    "id": "animals_f002",
-    "title": "Hábitat",
-    "interest": "animals",
-    "text": "El pingüino vive en…",
-    "hint": "Zonas frías",
-    "options": [
-      "Desierto",
-      "Polos",
-      "Selva",
-      "Sabana"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "animals_f003",
-    "title": "Cría del perro",
-    "interest": "animals",
-    "text": "¿Cómo se llama la cría del perro?",
-    "hint": "Empieza con 'c'",
-    "solution": "cachorro"
-  },
-  {
-    "id": "sports_f001",
-    "title": "Pelota naranja",
-    "interest": "sports",
-    "text": "¿Qué deporte usa pelota naranja a menudo?",
-    "hint": "Aros",
-    "options": [
-      "Fútbol",
-      "Rugby",
-      "Básquetbol",
-      "Vóley"
-    ],
-    "correct": 2
-  },
-  {
-    "id": "sports_f002",
-    "title": "Equipo",
-    "interest": "sports",
-    "text": "¿Cuántos jugadores por equipo en cancha de fútbol?",
-    "hint": "Regla básica",
-    "options": [
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "correct": 2
-  },
-  {
-    "id": "sports_f003",
-    "title": "Lugar de natación",
-    "interest": "sports",
-    "text": "Lugar donde se practica natación (una palabra)",
-    "hint": "Empieza con p",
-    "solution": "piscina"
-  },
-  {
-    "id": "music_f017",
-    "title": "Pregunta rápida",
-    "interest": "music",
-    "text": "¿Cuál es la opción correcta sobre música?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "music_f018",
-    "title": "Elige la correcta",
-    "interest": "music",
-    "text": "En música, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "music_f019",
-    "title": "Respuesta corta",
-    "interest": "music",
-    "text": "Escribe una palabra relacionada con música",
-    "hint": "Una palabra sencilla",
-    "solution": "música"
-  },
-  {
-    "id": "art_f021",
-    "title": "Pregunta rápida",
-    "interest": "art",
-    "text": "¿Cuál es la opción correcta sobre arte/dibujo?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "art_f022",
-    "title": "Elige la correcta",
-    "interest": "art",
-    "text": "En arte/dibujo, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "art_f023",
-    "title": "Respuesta corta",
-    "interest": "art",
-    "text": "Escribe una palabra relacionada con arte/dibujo",
-    "hint": "Una palabra sencilla",
-    "solution": "arte"
-  },
-  {
-    "id": "videogames_f025",
-    "title": "Pregunta rápida",
-    "interest": "videogames",
-    "text": "¿Cuál es la opción correcta sobre videojuegos?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "videogames_f026",
-    "title": "Elige la correcta",
-    "interest": "videogames",
-    "text": "En videojuegos, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "videogames_f027",
-    "title": "Respuesta corta",
-    "interest": "videogames",
-    "text": "Escribe una palabra relacionada con videojuegos",
-    "hint": "Una palabra sencilla",
-    "solution": "videojuegos"
-  },
-  {
-    "id": "tech_f029",
-    "title": "Pregunta rápida",
-    "interest": "tech",
-    "text": "¿Cuál es la opción correcta sobre tecnología?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "tech_f030",
-    "title": "Elige la correcta",
-    "interest": "tech",
-    "text": "En tecnología, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "tech_f031",
-    "title": "Respuesta corta",
-    "interest": "tech",
-    "text": "Escribe una palabra relacionada con tecnología",
-    "hint": "Una palabra sencilla",
-    "solution": "tecnología"
-  },
-  {
-    "id": "nature_f033",
-    "title": "Pregunta rápida",
-    "interest": "nature",
-    "text": "¿Cuál es la opción correcta sobre naturaleza?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "nature_f034",
-    "title": "Elige la correcta",
-    "interest": "nature",
-    "text": "En naturaleza, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "nature_f035",
-    "title": "Respuesta corta",
-    "interest": "nature",
-    "text": "Escribe una palabra relacionada con naturaleza",
-    "hint": "Una palabra sencilla",
-    "solution": "naturaleza"
-  },
-  {
-    "id": "history_f037",
-    "title": "Pregunta rápida",
-    "interest": "history",
-    "text": "¿Cuál es la opción correcta sobre historia simple?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "history_f038",
-    "title": "Elige la correcta",
-    "interest": "history",
-    "text": "En historia simple, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "history_f039",
-    "title": "Respuesta corta",
-    "interest": "history",
-    "text": "Escribe una palabra relacionada con historia simple",
-    "hint": "Una palabra sencilla",
-    "solution": "historia"
-  },
-  {
-    "id": "geo_f041",
-    "title": "Pregunta rápida",
-    "interest": "geo",
-    "text": "¿Cuál es la opción correcta sobre geografía fácil?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "geo_f042",
-    "title": "Elige la correcta",
-    "interest": "geo",
-    "text": "En geografía fácil, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "geo_f043",
-    "title": "Respuesta corta",
-    "interest": "geo",
-    "text": "Escribe una palabra relacionada con geografía fácil",
-    "hint": "Una palabra sencilla",
-    "solution": "geografía"
-  },
-  {
-    "id": "language_f001",
-    "title": "Vocal",
-    "interest": "language",
-    "text": "Completa: _ASA (cosa de la cocina)",
-    "hint": "Sostener",
-    "options": [
-      "M",
-      "P",
-      "T",
-      "C"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "language_f002",
-    "title": "Sinónimo",
-    "interest": "language",
-    "text": "Sinónimo de 'feliz'",
-    "hint": "Empieza con c",
-    "options": [
-      "contento",
-      "alto",
-      "lento",
-      "verde"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "language_f003",
-    "title": "Antónimo",
-    "interest": "language",
-    "text": "Antónimo de 'alto'",
-    "hint": "Empieza con b",
-    "solution": "bajo"
-  },
-  {
-    "id": "social_f049",
-    "title": "Pregunta rápida",
-    "interest": "social",
-    "text": "¿Cuál es la opción correcta sobre habilidades sociales?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "social_f050",
-    "title": "Elige la correcta",
-    "interest": "social",
-    "text": "En habilidades sociales, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "social_f051",
-    "title": "Respuesta corta",
-    "interest": "social",
-    "text": "Escribe una palabra relacionada con habilidades sociales",
-    "hint": "Una palabra sencilla",
-    "solution": "habilidades"
-  },
-  {
-    "id": "health_f053",
-    "title": "Pregunta rápida",
-    "interest": "health",
-    "text": "¿Cuál es la opción correcta sobre salud y hábitos?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "health_f054",
-    "title": "Elige la correcta",
-    "interest": "health",
-    "text": "En salud y hábitos, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "health_f055",
-    "title": "Respuesta corta",
-    "interest": "health",
-    "text": "Escribe una palabra relacionada con salud y hábitos",
-    "hint": "Una palabra sencilla",
-    "solution": "salud"
-  },
-  {
-    "id": "digital_safety_f057",
-    "title": "Pregunta rápida",
-    "interest": "digital_safety",
-    "text": "¿Cuál es la opción correcta sobre seguridad digital?",
-    "hint": "Piensa simple",
-    "options": [
-      "No lo sé",
-      "Esto",
-      "Aquello",
-      "Lo otro"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "digital_safety_f058",
-    "title": "Elige la correcta",
-    "interest": "digital_safety",
-    "text": "En seguridad digital, ¿qué opción es la más adecuada?",
-    "hint": "Lo más positivo",
-    "options": [
-      "Tal vez",
-      "Sí",
-      "No",
-      "Depende"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "digital_safety_f059",
-    "title": "Respuesta corta",
-    "interest": "digital_safety",
-    "text": "Escribe una palabra relacionada con seguridad digital",
-    "hint": "Una palabra sencilla",
-    "solution": "seguridad"
-  },
-  {
-    "id": "math_basic_p004",
-    "title": "Desafío",
-    "interest": "math_basic",
-    "text": "¿Cuál es la mitad de 18?",
-    "hint": "18/2",
-    "options": [
+      "6",
       "7",
       "8",
-      "9",
-      "10"
+      "9"
+    ],
+    "correct": 1,
+    "hint": "Calcula 28 ÷ 4"
+  },
+  {
+    "id": "MAT_301",
+    "interest": "math_basic",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Fracciones",
+    "text": "¿Cuál es mayor?",
+    "options": [
+      "3/5",
+      "2/3",
+      "1/2",
+      "4/9"
+    ],
+    "correct": 1,
+    "hint": "Convierte a decimales"
+  },
+  {
+    "id": "MAT_302",
+    "interest": "math_basic",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre matemática.",
+    "solution": "libre"
+  },
+  {
+    "id": "MAT_303",
+    "interest": "math_basic",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
     ],
     "correct": 2
   },
   {
-    "id": "fun_science_p008",
-    "title": "Reto premium",
-    "interest": "fun_science",
-    "text": "Pregunta especial de ciencia divertida: ¿qué elegirías?",
-    "hint": "A veces lo primero",
+    "id": "MAT_304",
+    "interest": "math_basic",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en matemática y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "MAT_305",
+    "interest": "math_basic",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
     "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "MAT_306",
+    "interest": "math_basic",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con matemática y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "MAT_307",
+    "interest": "math_basic",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
     ],
     "correct": 0
   },
   {
-    "id": "animals_p004",
-    "title": "Alimento",
-    "interest": "animals",
-    "text": "Los koalas comen principalmente…",
-    "hint": "Árbol favorito",
-    "options": [
-      "Hojas de eucalipto",
-      "Pasto",
-      "Carne",
-      "Peces"
-    ],
-    "correct": 0
+    "id": "MAT_308",
+    "interest": "math_basic",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
   },
   {
-    "id": "sports_p004",
-    "title": "Raqueta",
-    "interest": "sports",
-    "text": "Deporte con raqueta y red central",
-    "hint": "Golpear pelota pequeña",
-    "options": [
-      "Tenis",
-      "Fútbol",
-      "Béisbol",
-      "Golf"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "music_p020",
-    "title": "Reto premium",
-    "interest": "music",
-    "text": "Pregunta especial de música: ¿qué elegirías?",
-    "hint": "A veces lo primero",
-    "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "art_p024",
-    "title": "Reto premium",
-    "interest": "art",
-    "text": "Pregunta especial de arte/dibujo: ¿qué elegirías?",
-    "hint": "A veces lo primero",
-    "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "videogames_p028",
-    "title": "Reto premium",
-    "interest": "videogames",
-    "text": "Pregunta especial de videojuegos: ¿qué elegirías?",
-    "hint": "A veces lo primero",
-    "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "tech_p032",
-    "title": "Reto premium",
-    "interest": "tech",
-    "text": "Pregunta especial de tecnología: ¿qué elegirías?",
-    "hint": "A veces lo primero",
-    "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "nature_p036",
-    "title": "Reto premium",
-    "interest": "nature",
-    "text": "Pregunta especial de naturaleza: ¿qué elegirías?",
-    "hint": "A veces lo primero",
-    "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "history_p040",
-    "title": "Reto premium",
-    "interest": "history",
-    "text": "Pregunta especial de historia simple: ¿qué elegirías?",
-    "hint": "A veces lo primero",
-    "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "geo_p044",
-    "title": "Reto premium",
-    "interest": "geo",
-    "text": "Pregunta especial de geografía fácil: ¿qué elegirías?",
-    "hint": "A veces lo primero",
-    "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "language_p004",
-    "title": "Letra faltante",
+    "id": "LAN_300",
     "interest": "language",
-    "text": "Completa: P_ÑA (fruta)",
-    "hint": "Lleva tilde",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Sujetos y predicados",
+    "text": "En la oración: 'El gato duerme', el sujeto es…",
     "options": [
-      "I",
-      "E",
-      "A",
-      "O"
+      "duerme",
+      "el",
+      "gato",
+      "El gato"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "LAN_301",
+    "interest": "language",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Acentuación",
+    "text": "¿Cuál está bien acentuada?",
+    "options": [
+      "camion",
+      "camión",
+      "camíon",
+      "camiÓn"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "LAN_302",
+    "interest": "language",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre lenguaje.",
+    "solution": "libre"
+  },
+  {
+    "id": "LAN_303",
+    "interest": "language",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "LAN_304",
+    "interest": "language",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en lenguaje y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "LAN_305",
+    "interest": "language",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "LAN_306",
+    "interest": "language",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con lenguaje y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "LAN_307",
+    "interest": "language",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
     ],
     "correct": 0
   },
   {
-    "id": "social_p052",
-    "title": "Reto premium",
-    "interest": "social",
-    "text": "Pregunta especial de habilidades sociales: ¿qué elegirías?",
-    "hint": "A veces lo primero",
+    "id": "LAN_308",
+    "interest": "language",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "LOG_300",
+    "interest": "logic",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
     "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "LOG_301",
+    "interest": "logic",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "LOG_302",
+    "interest": "logic",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre lógica.",
+    "solution": "libre"
+  },
+  {
+    "id": "LOG_303",
+    "interest": "logic",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Lógica formal",
+    "text": "Negación de (P ∧ Q)",
+    "options": [
+      "¬P ∨ ¬Q",
+      "¬P ∧ ¬Q",
+      "P ∨ Q",
+      "P ∧ ¬Q"
+    ],
+    "correct": 0,
+    "hint": "De Morgan"
+  },
+  {
+    "id": "LOG_304",
+    "interest": "logic",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en lógica y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "LOG_305",
+    "interest": "logic",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "LOG_306",
+    "interest": "logic",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con lógica y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "LOG_307",
+    "interest": "logic",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "LOG_308",
+    "interest": "logic",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "MEM_300",
+    "interest": "memory",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "MEM_301",
+    "interest": "memory",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "MEM_302",
+    "interest": "memory",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre memoria.",
+    "solution": "libre"
+  },
+  {
+    "id": "MEM_303",
+    "interest": "memory",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "MEM_304",
+    "interest": "memory",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en memoria y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "MEM_305",
+    "interest": "memory",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "MEM_306",
+    "interest": "memory",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con memoria y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "MEM_307",
+    "interest": "memory",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "MEM_308",
+    "interest": "memory",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "GEO_300",
+    "interest": "geo",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "GEO_301",
+    "interest": "geo",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "GEO_302",
+    "interest": "geo",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre geografía.",
+    "solution": "libre"
+  },
+  {
+    "id": "GEO_303",
+    "interest": "geo",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "GEO_304",
+    "interest": "geo",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en geografía y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "GEO_305",
+    "interest": "geo",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "GEO_306",
+    "interest": "geo",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con geografía y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "GEO_307",
+    "interest": "geo",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "GEO_308",
+    "interest": "geo",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "ANI_300",
+    "interest": "animals",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "ANI_301",
+    "interest": "animals",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ANI_302",
+    "interest": "animals",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre animales.",
+    "solution": "libre"
+  },
+  {
+    "id": "ANI_303",
+    "interest": "animals",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ANI_304",
+    "interest": "animals",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en animales y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "ANI_305",
+    "interest": "animals",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ANI_306",
+    "interest": "animals",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con animales y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "ANI_307",
+    "interest": "animals",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ANI_308",
+    "interest": "animals",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "ART_300",
+    "interest": "art",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "ART_301",
+    "interest": "art",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ART_302",
+    "interest": "art",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre arte.",
+    "solution": "libre"
+  },
+  {
+    "id": "ART_303",
+    "interest": "art",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "ART_304",
+    "interest": "art",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en arte y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "ART_305",
+    "interest": "art",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ART_306",
+    "interest": "art",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con arte y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "ART_307",
+    "interest": "art",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "ART_308",
+    "interest": "art",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "MUS_300",
+    "interest": "music",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "MUS_301",
+    "interest": "music",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "MUS_302",
+    "interest": "music",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre música.",
+    "solution": "libre"
+  },
+  {
+    "id": "MUS_303",
+    "interest": "music",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "MUS_304",
+    "interest": "music",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en música y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "MUS_305",
+    "interest": "music",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "MUS_306",
+    "interest": "music",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con música y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "MUS_307",
+    "interest": "music",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "MUS_308",
+    "interest": "music",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "SPO_300",
+    "interest": "sports",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "SPO_301",
+    "interest": "sports",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "SPO_302",
+    "interest": "sports",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre deportes.",
+    "solution": "libre"
+  },
+  {
+    "id": "SPO_303",
+    "interest": "sports",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "SPO_304",
+    "interest": "sports",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en deportes y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "SPO_305",
+    "interest": "sports",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "SPO_306",
+    "interest": "sports",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con deportes y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "SPO_307",
+    "interest": "sports",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "SPO_308",
+    "interest": "sports",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "NAT_300",
+    "interest": "nature",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "NAT_301",
+    "interest": "nature",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "NAT_302",
+    "interest": "nature",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre naturaleza.",
+    "solution": "libre"
+  },
+  {
+    "id": "NAT_303",
+    "interest": "nature",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "NAT_304",
+    "interest": "nature",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en naturaleza y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "NAT_305",
+    "interest": "nature",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "NAT_306",
+    "interest": "nature",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con naturaleza y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "NAT_307",
+    "interest": "nature",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
     ],
     "correct": 0
   },
   {
-    "id": "health_p056",
-    "title": "Reto premium",
+    "id": "NAT_308",
+    "interest": "nature",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "HIS_300",
+    "interest": "history",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "HIS_301",
+    "interest": "history",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "HIS_302",
+    "interest": "history",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre historia.",
+    "solution": "libre"
+  },
+  {
+    "id": "HIS_303",
+    "interest": "history",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "HIS_304",
+    "interest": "history",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en historia y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "HIS_305",
+    "interest": "history",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "HIS_306",
+    "interest": "history",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con historia y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "HIS_307",
+    "interest": "history",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "HIS_308",
+    "interest": "history",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "TEC_300",
+    "interest": "tech",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "TEC_301",
+    "interest": "tech",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "TEC_302",
+    "interest": "tech",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre tecnología.",
+    "solution": "libre"
+  },
+  {
+    "id": "TEC_303",
+    "interest": "tech",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Ética digital",
+    "text": "Sesgo algorítmico",
+    "options": [
+      "No existe",
+      "Puede ocurrir",
+      "Garantiza neutralidad",
+      "Solo en IA fuerte"
+    ],
+    "correct": 1,
+    "hint": "Datos de entrenamiento"
+  },
+  {
+    "id": "TEC_304",
+    "interest": "tech",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en tecnología y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "TEC_305",
+    "interest": "tech",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Pensamiento crítico",
+    "text": "Detecta una falacia en este argumento: 'Si te gusta un juego violento, serás violento'.",
+    "options": [
+      "Falsa causa",
+      "Ad hominem",
+      "Apelación a la emoción",
+      "Ambigüedad"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "TEC_306",
+    "interest": "tech",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con tecnología y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "TEC_307",
+    "interest": "tech",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "TEC_308",
+    "interest": "tech",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "VID_300",
+    "interest": "videogames",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "VID_301",
+    "interest": "videogames",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "VID_302",
+    "interest": "videogames",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre videojuegos.",
+    "solution": "libre"
+  },
+  {
+    "id": "VID_303",
+    "interest": "videogames",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "VID_304",
+    "interest": "videogames",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en videojuegos y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "VID_305",
+    "interest": "videogames",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Pensamiento crítico",
+    "text": "Detecta una falacia en este argumento: 'Si te gusta un juego violento, serás violento'.",
+    "options": [
+      "Falsa causa",
+      "Ad hominem",
+      "Apelación a la emoción",
+      "Ambigüedad"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "VID_306",
+    "interest": "videogames",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con videojuegos y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "VID_307",
+    "interest": "videogames",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "VID_308",
+    "interest": "videogames",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "HEA_300",
     "interest": "health",
-    "text": "Pregunta especial de salud y hábitos: ¿qué elegirías?",
-    "hint": "A veces lo primero",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
     "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "HEA_301",
+    "interest": "health",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "HEA_302",
+    "interest": "health",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre salud.",
+    "solution": "libre"
+  },
+  {
+    "id": "HEA_303",
+    "interest": "health",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Comprensión crítica",
+    "text": "Identifica la idea principal de un texto informativo.",
+    "options": [
+      "Título",
+      "Opinión",
+      "Idea central",
+      "Resumen"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "HEA_304",
+    "interest": "health",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en salud y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "HEA_305",
+    "interest": "health",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Analogía",
+    "text": "Si estudiar:aprobar :: entrenar:__",
+    "options": [
+      "Cansarse",
+      "Ganar",
+      "Perder",
+      "Descansar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "HEA_306",
+    "interest": "health",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con salud y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "HEA_307",
+    "interest": "health",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
     ],
     "correct": 0
   },
   {
-    "id": "digital_safety_p060",
-    "title": "Reto premium",
-    "interest": "digital_safety",
-    "text": "Pregunta especial de seguridad digital: ¿qué elegirías?",
-    "hint": "A veces lo primero",
+    "id": "HEA_308",
+    "interest": "health",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
+  },
+  {
+    "id": "SOC_300",
+    "interest": "social",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Patrón lógico",
+    "text": "1, 3, 6, 10, ¿?",
     "options": [
-      "Opción A",
-      "Opción B",
-      "Opción C",
-      "Opción D"
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "hint": "Triangulares"
+  },
+  {
+    "id": "SOC_301",
+    "interest": "social",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Relación",
+    "text": "Si todos los delfines son mamíferos y Zeus es delfín, entonces Zeus es…",
+    "options": [
+      "Pez",
+      "Mamífero",
+      "Reptil",
+      "Ave"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "SOC_302",
+    "interest": "social",
+    "audience": "child",
+    "ageMin": 10,
+    "ageMax": 12,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Explica con tus palabras",
+    "text": "Explica algo interesante sobre habilidades sociales.",
+    "solution": "libre"
+  },
+  {
+    "id": "SOC_303",
+    "interest": "social",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Decisión responsable",
+    "text": "Compañero es excluido",
+    "options": [
+      "Reírse",
+      "Ignorar",
+      "Invitarlo a jugar",
+      "Filmarlo"
+    ],
+    "correct": 2,
+    "hint": "Piensa en consecuencias"
+  },
+  {
+    "id": "SOC_304",
+    "interest": "social",
+    "audience": "child",
+    "ageMin": 13,
+    "ageMax": 15,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Reflexiona",
+    "text": "¿Qué desafío te costó más en habilidades sociales y por qué?",
+    "solution": "libre"
+  },
+  {
+    "id": "SOC_305",
+    "interest": "social",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": false,
+    "title": "Pensamiento crítico",
+    "text": "Detecta una falacia en este argumento: 'Si te gusta un juego violento, serás violento'.",
+    "options": [
+      "Falsa causa",
+      "Ad hominem",
+      "Apelación a la emoción",
+      "Ambigüedad"
     ],
     "correct": 0
+  },
+  {
+    "id": "SOC_306",
+    "interest": "social",
+    "audience": "child",
+    "ageMin": 16,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Plan de mejora (premium)",
+    "text": "Define una meta SMART relacionada con habilidades sociales y detalla 3 pasos.",
+    "solution": "libre"
+  },
+  {
+    "id": "SOC_307",
+    "interest": "social",
+    "audience": "mentor",
+    "ageMin": 6,
+    "ageMax": 18,
+    "difficulty": 2,
+    "premium": false,
+    "title": "Observación guiada",
+    "text": "En 1 minuto, cuenta cuántas veces el niño se distrae y selecciona el rango.",
+    "options": [
+      "0-1",
+      "2-3",
+      "4-5",
+      "6+"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "SOC_308",
+    "interest": "social",
+    "audience": "mentor",
+    "ageMin": 10,
+    "ageMax": 18,
+    "difficulty": 3,
+    "premium": true,
+    "title": "Intervención (premium)",
+    "text": "Describe una intervención breve (3 pasos) para mejorar la atención en este tema.",
+    "solution": "libre"
   }
 ]
